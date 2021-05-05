@@ -1,0 +1,8 @@
+linters:
+  enable:
+    - gofmt
+    - goimports
+
+run:
+  skip-dirs:
+    - vendor

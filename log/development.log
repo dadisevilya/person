@@ -1,0 +1,619 @@
+{"level":"debug","message":"get persons","requestId":"bb65e2d9-b598-42ed-81f7-a30a45127241","time":"2021-01-24T13:32:22Z","vars":{}}
+{"level":"error","message":"can't get persons%!(EXTRA *pq.Error=pq: relation \"persons\" does not exist)","requestId":"bb65e2d9-b598-42ed-81f7-a30a45127241","time":"2021-01-24T13:32:22Z"}
+{"level":"error","message":"error%!(EXTRA *pq.Error=pq: relation \"persons\" does not exist)","requestId":"bb65e2d9-b598-42ed-81f7-a30a45127241","time":"2021-01-24T13:32:22Z"}
+{"level":"debug","message":"create person","requestId":"4e31ad29-6b2d-46a2-9df8-1970fce0dc84","time":"2021-01-24T13:35:10Z","vars":{}}
+{"level":"debug","message":"create person","requestId":"1a70b5f2-c050-43f5-bf1d-c71131f20de3","time":"2021-01-24T13:53:37Z","vars":{}}
+{"level":"debug","message":"get persons","requestId":"f6fef23e-c53c-468c-9bc0-2ad8bf015f0b","time":"2021-01-24T13:54:00Z","vars":{}}
+{"level":"debug","message":"persons num {}%!(EXTRA int=1)","requestId":"f6fef23e-c53c-468c-9bc0-2ad8bf015f0b","time":"2021-01-24T13:54:00Z"}
+{"level":"debug","message":"get person by id","requestId":"ea623ad9-d885-4726-a9fe-d534676b980b","time":"2021-01-25T15:42:29Z","vars":{"id":"1"}}
+{"level":"debug","message":"persons num {}","requestId":"ea623ad9-d885-4726-a9fe-d534676b980b","time":"2021-01-25T15:42:29Z"}
+{"level":"debug","message":"update person by id","requestId":"bf343d7f-06d1-4881-9702-3813a662685b","time":"2021-01-25T17:12:59Z","vars":{"id":"1"}}
+{"level":"debug","message":"get person by id","requestId":"fb25add8-3cb2-42d0-9d2b-4695cab4b838","time":"2021-01-26T10:28:12Z","vars":{"id":"1"}}
+{"level":"debug","message":"persons num {}","requestId":"fb25add8-3cb2-42d0-9d2b-4695cab4b838","time":"2021-01-26T10:28:12Z"}
+{"level":"debug","message":"get person by id","requestId":"5df36b61-f86e-4cf6-b50f-1957d04e82b5","time":"2021-01-26T10:28:23Z","vars":{"id":"1"}}
+{"level":"debug","message":"persons num {}","requestId":"5df36b61-f86e-4cf6-b50f-1957d04e82b5","time":"2021-01-26T10:28:23Z"}
+{"level":"debug","message":"get person by id","requestId":"bd9a3a81-ce2f-40af-bc69-395ed9efdd8b","time":"2021-01-26T10:28:37Z","vars":{"id":"1"}}
+{"level":"debug","message":"persons num {}","requestId":"bd9a3a81-ce2f-40af-bc69-395ed9efdd8b","time":"2021-01-26T10:28:37Z"}
+{"level":"debug","message":"update person by id","requestId":"f099a6b6-5038-41ea-a8dc-2dba9022b589","time":"2021-01-26T11:25:58Z","vars":{"id":"1"}}
+{"level":"debug","message":"update person by id","requestId":"cdbf5858-c6cc-4df2-bf7a-7ed806dc8fb7","time":"2021-01-26T11:26:29Z","vars":{"id":"1"}}
+{"level":"debug","message":"update person by id","requestId":"0afa8622-7997-4342-8e31-e39dfe45499e","time":"2021-01-26T11:26:51Z","vars":{"id":"1"}}
+{"level":"debug","message":"update person by id","requestId":"5189d373-e92a-4978-8c05-7dc3e73adaa7","time":"2021-01-26T11:27:58Z","vars":{"id":"1"}}
+{"level":"debug","message":"update person by id","requestId":"d6565a5a-5c1d-4075-8593-c8ea3240024b","time":"2021-01-26T11:29:42Z","vars":{"id":"1"}}
+{"level":"debug","message":"update person by id","requestId":"3c8d3271-324b-4421-8e4b-637918349858","time":"2021-01-26T11:30:04Z","vars":{"id":"1"}}
+{"level":"debug","message":"create person","requestId":"f51d1305-0b96-457f-bd20-c88f2b1f8f92","time":"2021-01-26T11:31:31Z","vars":{}}
+{"level":"debug","message":"get persons","requestId":"8c9e0cc4-ed68-4661-a915-84c5c5e23b2c","time":"2021-01-26T11:32:09Z","vars":{}}
+{"level":"debug","message":"persons num {}%!(EXTRA int=2)","requestId":"8c9e0cc4-ed68-4661-a915-84c5c5e23b2c","time":"2021-01-26T11:32:09Z"}
+{"level":"debug","message":"update person by id","requestId":"b19f4d0f-0a50-4d2c-93e4-003f5f645295","time":"2021-01-26T11:33:06Z","vars":{"id":"1"}}
+{"level":"debug","message":"update person by id","requestId":"d0bc05f0-19e3-45d9-b88f-1d270d107f74","time":"2021-01-26T11:37:54Z","vars":{"id":"1"}}
+{"level":"debug","message":"update person by id","requestId":"4d6555ed-4c04-4f7a-9bd9-f4dc81050867","time":"2021-01-26T11:38:50Z","vars":{"id":"1"}}
+{"level":"debug","message":"update person by id","requestId":"2a5701c6-4aad-4d35-8bc8-10e1421bec54","time":"2021-01-26T11:39:08Z","vars":{"id":"1"}}
+{"level":"debug","message":"update person by id","requestId":"a4768987-9f98-4f40-9b7b-9cf246b931b4","time":"2021-01-26T11:39:24Z","vars":{"id":"1"}}
+{"level":"debug","message":"get persons","requestId":"55ebacf3-4ea0-4afb-91b8-b3b91a781f7b","time":"2021-01-26T13:49:49Z","vars":{}}
+{"level":"debug","message":"persons num {}%!(EXTRA int=2)","requestId":"55ebacf3-4ea0-4afb-91b8-b3b91a781f7b","time":"2021-01-26T13:49:49Z"}
+{"level":"debug","message":"get persons","requestId":"e63fb310-84d9-40cb-b64e-3a1695311a3b","time":"2021-01-26T13:49:55Z","vars":{}}
+{"level":"debug","message":"persons num {}%!(EXTRA int=2)","requestId":"e63fb310-84d9-40cb-b64e-3a1695311a3b","time":"2021-01-26T13:49:55Z"}
+{"level":"debug","message":"update person by id","requestId":"dfba04b5-c276-4077-a6ef-f3bdfa4bc21c","time":"2021-01-26T13:52:11Z","vars":{"id":"1"}}
+{"level":"debug","message":"get person by id","requestId":"96c13e4f-226a-4d2c-afd7-26c8b49248dd","time":"2021-01-26T13:56:28Z","vars":{"id":"1"}}
+{"level":"debug","message":"persons num {}","requestId":"96c13e4f-226a-4d2c-afd7-26c8b49248dd","time":"2021-01-26T13:56:28Z"}
+{"level":"debug","message":"get persons","requestId":"a92c36de-1a3d-4b00-9f14-a95168610712","time":"2021-01-26T13:57:12Z","vars":{}}
+{"level":"debug","message":"persons num {}%!(EXTRA int=2)","requestId":"a92c36de-1a3d-4b00-9f14-a95168610712","time":"2021-01-26T13:57:12Z"}
+{"level":"debug","message":"update person by id","requestId":"0a73636f-87bc-475f-aa13-3f4808d92751","time":"2021-01-26T13:58:52Z","vars":{"id":"674"}}
+{"level":"error","message":"can't get persons%!(EXTRA *errors.errorString=record not found)","requestId":"0a73636f-87bc-475f-aa13-3f4808d92751","time":"2021-01-26T13:59:00Z"}
+{"level":"error","message":"error - person by id%!(EXTRA *errors.errorString=record not found)","requestId":"0a73636f-87bc-475f-aa13-3f4808d92751","time":"2021-01-26T13:59:11Z"}
+{"level":"debug","message":"update person by id","requestId":"b372847f-2769-4713-bfa5-5a83075f74f2","time":"2021-01-26T14:00:48Z","vars":{"id":"6743"}}
+{"level":"error","message":"can't get persons%!(EXTRA *errors.errorString=record not found)","requestId":"b372847f-2769-4713-bfa5-5a83075f74f2","time":"2021-01-26T14:00:48Z"}
+{"level":"error","message":"error - person by id%!(EXTRA *errors.errorString=record not found)","requestId":"b372847f-2769-4713-bfa5-5a83075f74f2","time":"2021-01-26T14:00:53Z"}
+{"level":"debug","message":"update person by id","requestId":"9443f7c8-e529-4d87-874f-518ed07c4bf9","time":"2021-01-26T14:01:53Z","vars":{"id":"6743"}}
+{"level":"error","message":"can't get persons%!(EXTRA *errors.errorString=record not found)","requestId":"9443f7c8-e529-4d87-874f-518ed07c4bf9","time":"2021-01-26T14:01:53Z"}
+{"level":"error","message":"error - person by id%!(EXTRA *errors.errorString=record not found)","requestId":"9443f7c8-e529-4d87-874f-518ed07c4bf9","time":"2021-01-26T14:01:53Z"}
+{"level":"debug","message":"update person by id","requestId":"d26aeeb7-2d00-4323-ac12-b4aaa1d113bb","time":"2021-01-26T14:03:15Z","vars":{"id":"6743"}}
+{"level":"error","message":"can't get persons%!(EXTRA *errors.errorString=record not found)","requestId":"d26aeeb7-2d00-4323-ac12-b4aaa1d113bb","time":"2021-01-26T14:03:15Z"}
+{"level":"error","message":"error - person by id%!(EXTRA *errors.errorString=record not found)","requestId":"d26aeeb7-2d00-4323-ac12-b4aaa1d113bb","time":"2021-01-26T14:03:15Z"}
+{"level":"debug","message":"update person by id","requestId":"60b2cfb3-bc47-42e1-9a0d-b1076f81d65b","time":"2021-01-26T14:03:33Z","vars":{"id":"6743"}}
+{"level":"error","message":"can't get persons%!(EXTRA *errors.errorString=record not found)","requestId":"60b2cfb3-bc47-42e1-9a0d-b1076f81d65b","time":"2021-01-26T14:03:33Z"}
+{"level":"error","message":"error - person by id%!(EXTRA *errors.errorString=record not found)","requestId":"60b2cfb3-bc47-42e1-9a0d-b1076f81d65b","time":"2021-01-26T14:03:33Z"}
+{"level":"debug","message":"update person by id","requestId":"0c6001fb-ee40-43b5-aaf4-d75de2000aa4","time":"2021-01-26T14:04:07Z","vars":{"id":"6743"}}
+{"level":"error","message":"can't get persons%!(EXTRA *errors.errorString=record not found)","requestId":"0c6001fb-ee40-43b5-aaf4-d75de2000aa4","time":"2021-01-26T14:04:07Z"}
+{"level":"error","message":"error - person by id%!(EXTRA *errors.errorString=record not found)","requestId":"0c6001fb-ee40-43b5-aaf4-d75de2000aa4","time":"2021-01-26T14:04:07Z"}
+{"level":"debug","message":"update person by id","requestId":"2aa2fd62-34da-4256-8445-c477da611952","time":"2021-01-26T14:05:22Z","vars":{"id":"1"}}
+{"level":"debug","message":"get person by id","requestId":"a146b8b5-6c31-4f66-8a27-ee82a9c9193d","time":"2021-01-27T16:21:49Z","vars":{"id":"1"}}
+{"level":"debug","message":"persons num {}","requestId":"a146b8b5-6c31-4f66-8a27-ee82a9c9193d","time":"2021-01-27T16:21:49Z"}
+{"level":"debug","message":"get persons","requestId":"78bb31e5-b319-4aac-9f5c-d3e400373286","time":"2021-01-27T16:22:09Z","vars":{}}
+{"level":"debug","message":"persons num {}%!(EXTRA int=2)","requestId":"78bb31e5-b319-4aac-9f5c-d3e400373286","time":"2021-01-27T16:22:09Z"}
+{"level":"debug","message":"update person by id","requestId":"960704d9-bee1-45a8-8f46-49d3eea231a2","time":"2021-01-27T16:24:18Z","vars":{"id":"1"}}
+{"level":"debug","message":"create person","requestId":"725cd46e-7b39-4452-917f-295c4ff56fcd","time":"2021-01-27T16:25:22Z","vars":{}}
+{"level":"debug","message":"delete person by id","requestId":"99d2a60f-1f3b-4b0d-8d44-ecd57d28c3d4","time":"2021-01-27T16:26:49Z","vars":{"id":"1"}}
+{"level":"error","message":"error - delete person by id%!(EXTRA *pq.Error=pq: zero-length delimited identifier at or near \"\"\"\")","requestId":"99d2a60f-1f3b-4b0d-8d44-ecd57d28c3d4","time":"2021-01-27T16:26:49Z"}
+{"level":"debug","message":"delete person by id","requestId":"1ffcd3b7-e607-47fc-a672-b60c4c39693b","time":"2021-01-27T16:27:24Z","vars":{"id":"1"}}
+{"level":"debug","message":"delete person by id","requestId":"90f68fd1-0a3a-40b4-a9c1-c5cfc30fa412","time":"2021-01-27T16:35:50Z","vars":{"id":"1"}}
+{"level":"debug","message":"persons num {}","requestId":"90f68fd1-0a3a-40b4-a9c1-c5cfc30fa412","time":"2021-01-27T16:35:51Z"}
+{"level":"debug","message":"get persons","requestId":"474d096b-b0a3-4dfa-893d-d2edf7785122","time":"2021-01-27T16:36:22Z","vars":{}}
+{"level":"debug","message":"persons num {}%!(EXTRA int=2)","requestId":"474d096b-b0a3-4dfa-893d-d2edf7785122","time":"2021-01-27T16:36:22Z"}
+{"level":"debug","message":"delete person by id","requestId":"7b079252-6ce0-422d-8421-0a68cfb8c93e","time":"2021-01-27T16:37:10Z","vars":{"id":"2"}}
+{"level":"debug","message":"persons num {}","requestId":"7b079252-6ce0-422d-8421-0a68cfb8c93e","time":"2021-01-27T16:37:11Z"}
+{"level":"debug","message":"get persons","requestId":"c3a7cf0c-ebb3-4c59-8259-02a978cd7c07","time":"2021-01-27T16:37:42Z","vars":{}}
+{"level":"debug","message":"persons num {}%!(EXTRA int=1)","requestId":"c3a7cf0c-ebb3-4c59-8259-02a978cd7c07","time":"2021-01-27T16:37:42Z"}
+{"level":"debug","message":"create person","requestId":"b4b67054-8f07-4f35-b1db-b36619514ba2","time":"2021-01-27T16:38:11Z","vars":{}}
+{"level":"debug","message":"get persons","requestId":"63f5bb0d-3eaa-49ca-948c-4f6d908e1ec8","time":"2021-01-27T16:38:24Z","vars":{}}
+{"level":"debug","message":"persons num {}%!(EXTRA int=2)","requestId":"63f5bb0d-3eaa-49ca-948c-4f6d908e1ec8","time":"2021-01-27T16:38:24Z"}
+{"level":"debug","message":"create person","requestId":"d74f380c-89f7-4174-886a-75c4cf245df2","time":"2021-01-27T16:38:53Z","vars":{}}
+{"level":"debug","message":"create person","requestId":"61894bc3-c5ba-4e50-a4d9-df3525fb28eb","time":"2021-01-27T16:39:22Z","vars":{}}
+{"level":"debug","message":"get persons","requestId":"9d781119-af9c-4a7e-baa1-ec417dc8c179","time":"2021-01-27T16:39:34Z","vars":{}}
+{"level":"debug","message":"persons num {}%!(EXTRA int=4)","requestId":"9d781119-af9c-4a7e-baa1-ec417dc8c179","time":"2021-01-27T16:39:34Z"}
+{"level":"debug","message":"delete person by id","requestId":"129d16ef-9633-492c-9790-2c1d594e5c11","time":"2021-01-27T16:39:57Z","vars":{"id":"6"}}
+{"level":"debug","message":"persons num {}","requestId":"129d16ef-9633-492c-9790-2c1d594e5c11","time":"2021-01-27T16:40:01Z"}
+{"level":"debug","message":"get persons","requestId":"1c832f11-2bed-4b15-9c5f-183fdae931bd","time":"2021-01-27T16:40:16Z","vars":{}}
+{"level":"debug","message":"persons num {}%!(EXTRA int=3)","requestId":"1c832f11-2bed-4b15-9c5f-183fdae931bd","time":"2021-01-27T16:40:16Z"}
+{"level":"debug","message":"get persons","requestId":"c9cb07ea-4197-4da6-a3bb-fa34b6f00de3","time":"2021-02-24T15:50:09Z","vars":{}}
+{"level":"debug","message":"get persons","requestId":"6b56ae8f-ae18-40ef-bbf4-99fdb360e690","time":"2021-02-24T15:51:31Z","vars":{}}
+{"level":"debug","message":"get persons","requestId":"5d21b61c-0b74-4c3d-be12-187639ea3657","time":"2021-02-24T15:53:33Z","vars":{}}
+{"level":"debug","message":"get persons","requestId":"8d3fe487-ccd6-4ea0-ae6f-212c874c072f","time":"2021-02-24T15:54:37Z","vars":{}}
+{"level":"debug","message":"get persons","requestId":"5098d049-1439-459e-8b2c-a58c8672accd","time":"2021-02-24T15:57:25Z","vars":{}}
+{"level":"debug","message":"get persons","requestId":"9b31d750-dc6d-4a1d-892a-2bba7bf17811","time":"2021-02-24T16:01:27Z","vars":{}}
+{"level":"debug","message":"get persons","requestId":"dd69a93c-c414-464c-85b8-f05635416006","time":"2021-02-24T16:11:29Z","vars":{}}
+{"level":"error","message":"couldn't get redis get personsredis: nil","requestId":"dd69a93c-c414-464c-85b8-f05635416006","time":"2021-02-24T16:12:19Z"}
+{"level":"debug","message":"persons num {}3","requestId":"dd69a93c-c414-464c-85b8-f05635416006","time":"2021-02-24T16:12:36Z"}
+{"level":"debug","message":"get persons","requestId":"7a3a04d1-b4d8-4e89-ab8f-0fcba248c552","time":"2021-02-24T16:12:48Z","vars":{}}
+{"level":"error","message":"couldn't get redis get personsredis: nil","requestId":"7a3a04d1-b4d8-4e89-ab8f-0fcba248c552","time":"2021-02-24T16:12:51Z"}
+{"level":"debug","message":"persons num {}3","requestId":"7a3a04d1-b4d8-4e89-ab8f-0fcba248c552","time":"2021-02-24T16:12:52Z"}
+{"level":"debug","message":"get persons","requestId":"cc6a953e-5166-4791-9dcc-83eb8db1e9e8","time":"2021-02-24T16:29:06Z","vars":{}}
+{"level":"error","message":"couldn't get redis get personsredis: nil","requestId":"cc6a953e-5166-4791-9dcc-83eb8db1e9e8","time":"2021-02-24T16:29:12Z"}
+{"level":"debug","message":"persons num {}3","requestId":"cc6a953e-5166-4791-9dcc-83eb8db1e9e8","time":"2021-02-24T16:29:13Z"}
+{"level":"debug","message":"get persons","requestId":"9ed70c81-3108-4c11-967a-41b34fd76256","time":"2021-02-24T16:29:26Z","vars":{}}
+{"level":"error","message":"couldn't get redis get personsredis: nil","requestId":"9ed70c81-3108-4c11-967a-41b34fd76256","time":"2021-02-24T16:29:57Z"}
+{"level":"debug","message":"persons num {}3","requestId":"9ed70c81-3108-4c11-967a-41b34fd76256","time":"2021-02-24T16:30:27Z"}
+{"level":"debug","message":"get persons","requestId":"dfefcd87-f820-4b1e-8dd8-e2e68a978476","time":"2021-02-24T16:30:34Z","vars":{}}
+{"level":"error","message":"couldn't get redis get personsredis: nil","requestId":"dfefcd87-f820-4b1e-8dd8-e2e68a978476","time":"2021-02-24T16:30:39Z"}
+{"level":"debug","message":"get persons","requestId":"68fe6dea-9560-4ccb-9565-393bb46936b2","time":"2021-02-24T16:33:43Z","vars":{}}
+{"level":"error","message":"couldn't get redis get personsredis: nil","requestId":"68fe6dea-9560-4ccb-9565-393bb46936b2","time":"2021-02-24T16:33:46Z"}
+{"level":"debug","message":"persons num {}3","requestId":"68fe6dea-9560-4ccb-9565-393bb46936b2","time":"2021-02-24T16:33:55Z"}
+{"level":"debug","message":"get persons","requestId":"66f5ec09-6358-4485-b62d-69083808ba51","time":"2021-02-24T16:34:01Z","vars":{}}
+{"level":"error","message":"couldn't get redis get personsredis: nil","requestId":"66f5ec09-6358-4485-b62d-69083808ba51","time":"2021-02-24T16:34:11Z"}
+{"level":"debug","message":"get persons","requestId":"8507a4dd-3887-4f47-b7c2-87b2fb3ba968","time":"2021-02-24T16:35:35Z","vars":{}}
+{"level":"error","message":"couldn't get redis get persons redis: nil","requestId":"8507a4dd-3887-4f47-b7c2-87b2fb3ba968","time":"2021-02-24T16:35:38Z"}
+{"level":"debug","message":"persons num {}3","requestId":"8507a4dd-3887-4f47-b7c2-87b2fb3ba968","time":"2021-02-24T16:35:39Z"}
+{"level":"debug","message":"get persons","requestId":"9108b5e4-4e21-4f34-8ecc-bebf2f41283a","time":"2021-02-24T16:35:43Z","vars":{}}
+{"level":"error","message":"couldn't get redis get persons redis: nil","requestId":"9108b5e4-4e21-4f34-8ecc-bebf2f41283a","time":"2021-02-24T16:35:46Z"}
+{"level":"debug","message":"get persons","requestId":"81dba1b9-64be-4c82-8359-0d4aaf56b5ab","time":"2021-02-24T16:38:11Z","vars":{}}
+{"level":"error","message":"couldn't get redis get persons redis: nil","requestId":"81dba1b9-64be-4c82-8359-0d4aaf56b5ab","time":"2021-02-24T16:38:16Z"}
+{"level":"debug","message":"get persons","requestId":"e94249c8-b94b-4e57-9d9e-bb0965955896","time":"2021-02-24T16:40:39Z","vars":{}}
+{"level":"error","message":"couldn't get redis get persons redis: nil","requestId":"e94249c8-b94b-4e57-9d9e-bb0965955896","time":"2021-02-24T16:40:40Z"}
+{"level":"debug","message":"get persons","requestId":"349ba18c-ded5-46a1-9e3a-8d4fc6de669b","time":"2021-02-24T16:44:47Z","vars":{}}
+{"level":"error","message":"couldn't get redis get persons redis: nil","requestId":"349ba18c-ded5-46a1-9e3a-8d4fc6de669b","time":"2021-02-24T16:44:49Z"}
+{"level":"debug","message":"persons num {}3","requestId":"349ba18c-ded5-46a1-9e3a-8d4fc6de669b","time":"2021-02-24T16:44:51Z"}
+{"level":"debug","message":"get persons","requestId":"e75fe091-19f2-4299-9810-b1d562e43e63","time":"2021-02-24T16:44:56Z","vars":{}}
+{"level":"error","message":"couldn't get redis get persons WRONGTYPE Operation against a key holding the wrong kind of value","requestId":"e75fe091-19f2-4299-9810-b1d562e43e63","time":"2021-02-24T16:45:01Z"}
+{"level":"debug","message":"get persons","requestId":"211e788a-014c-4237-ab88-f862c2fb3260","time":"2021-02-24T16:46:48Z","vars":{}}
+{"level":"error","message":"couldn't get redis get persons WRONGTYPE Operation against a key holding the wrong kind of value","requestId":"211e788a-014c-4237-ab88-f862c2fb3260","time":"2021-02-24T16:46:50Z"}
+{"level":"debug","message":"persons num {}3","requestId":"211e788a-014c-4237-ab88-f862c2fb3260","time":"2021-02-24T16:46:51Z"}
+{"level":"debug","message":"get persons","requestId":"ef78816a-80e3-4ce5-93e3-b8e904b50876","time":"2021-02-24T16:46:55Z","vars":{}}
+{"level":"error","message":"couldn't get redis get persons WRONGTYPE Operation against a key holding the wrong kind of value","requestId":"ef78816a-80e3-4ce5-93e3-b8e904b50876","time":"2021-02-24T16:46:57Z"}
+{"level":"debug","message":"persons num {}3","requestId":"ef78816a-80e3-4ce5-93e3-b8e904b50876","time":"2021-02-24T16:47:05Z"}
+{"level":"debug","message":"get persons","requestId":"0b01cb17-8248-40f0-998a-075c22943b0f","time":"2021-02-24T16:47:07Z","vars":{}}
+{"level":"error","message":"couldn't get redis get persons WRONGTYPE Operation against a key holding the wrong kind of value","requestId":"0b01cb17-8248-40f0-998a-075c22943b0f","time":"2021-02-24T16:47:33Z"}
+{"level":"debug","message":"persons num {}3","requestId":"0b01cb17-8248-40f0-998a-075c22943b0f","time":"2021-02-24T16:47:39Z"}
+{"level":"debug","message":"get persons","requestId":"731bea6b-3135-442f-b89f-25b9c20ef1b2","time":"2021-02-24T16:49:39Z","vars":{}}
+{"level":"error","message":"couldn't get redis get persons WRONGTYPE Operation against a key holding the wrong kind of value","requestId":"731bea6b-3135-442f-b89f-25b9c20ef1b2","time":"2021-02-24T16:49:41Z"}
+{"level":"error","message":"redis sucks!!","requestId":"731bea6b-3135-442f-b89f-25b9c20ef1b2","time":"2021-02-24T16:49:42Z"}
+{"level":"debug","message":"persons num {}3","requestId":"731bea6b-3135-442f-b89f-25b9c20ef1b2","time":"2021-02-24T16:49:42Z"}
+{"level":"debug","message":"get persons","requestId":"d2954057-9232-4799-af0e-cccf0757247b","time":"2021-02-24T16:49:45Z","vars":{}}
+{"level":"error","message":"couldn't get redis get persons WRONGTYPE Operation against a key holding the wrong kind of value","requestId":"d2954057-9232-4799-af0e-cccf0757247b","time":"2021-02-24T16:49:51Z"}
+{"level":"debug","message":"get persons","requestId":"3a3ec49b-580b-429b-b8f6-9cb7aebc3502","time":"2021-02-24T16:51:17Z","vars":{}}
+{"level":"error","message":"couldn't get redis get persons WRONGTYPE Operation against a key holding the wrong kind of value","requestId":"3a3ec49b-580b-429b-b8f6-9cb7aebc3502","time":"2021-02-24T16:51:20Z"}
+{"level":"debug","message":"persons num {}3","requestId":"3a3ec49b-580b-429b-b8f6-9cb7aebc3502","time":"2021-02-24T16:51:20Z"}
+{"level":"debug","message":"get persons","requestId":"6a3dd398-774b-4ee4-86e4-83714ad319a0","time":"2021-02-24T16:51:22Z","vars":{}}
+{"level":"debug","message":"get persons","requestId":"0eb70792-2f85-4178-8ed7-b9faaab6b000","time":"2021-02-25T07:54:28Z","vars":{}}
+{"level":"debug","message":"get persons","requestId":"9a6f2e64-c87c-497c-96f8-c0fceaf9def5","time":"2021-02-25T08:15:52Z","vars":{}}
+{"level":"error","message":"couldn't get redis get persons redis: nil","requestId":"9a6f2e64-c87c-497c-96f8-c0fceaf9def5","time":"2021-02-25T08:15:53Z"}
+{"level":"debug","message":"persons num {}3","requestId":"9a6f2e64-c87c-497c-96f8-c0fceaf9def5","time":"2021-02-25T08:15:54Z"}
+{"level":"debug","message":"create person","requestId":"33f9e344-bc4d-4800-94ec-b16b4771f243","time":"2021-02-25T08:21:28Z","vars":{}}
+{"level":"debug","message":"create person","requestId":"3a8b628a-ed91-4a69-bbc4-e3de2f8d7cfe","time":"2021-02-25T08:22:31Z","vars":{}}
+{"level":"debug","message":"create person","requestId":"b45f6791-be11-454f-84dd-a05a0dd48b8d","time":"2021-02-25T08:22:59Z","vars":{}}
+{"level":"debug","message":"create person","requestId":"4a80756e-abb9-4732-b99b-4676047337e4","time":"2021-02-25T08:23:09Z","vars":{}}
+{"level":"debug","message":"get persons","requestId":"678e6ceb-5184-40eb-be19-ee303ccabf58","time":"2021-02-25T08:25:57Z","vars":{}}
+{"level":"debug","message":"get persons","requestId":"7bceb7b8-5ac5-4887-8b51-3e671aa0b098","time":"2021-02-25T08:26:32Z","vars":{}}
+{"level":"debug","message":"create person","requestId":"17d93fe4-cba4-4699-a346-2489a04ed594","time":"2021-02-25T08:31:14Z","vars":{}}
+{"level":"debug","message":"create person","requestId":"dbb70360-9244-4a1c-bf3c-3118d29b1615","time":"2021-02-25T08:31:30Z","vars":{}}
+{"level":"debug","message":"create person","requestId":"3fdc7a03-2e62-4597-bc45-980ee0576a51","time":"2021-02-25T08:32:22Z","vars":{}}
+{"level":"debug","message":"get persons","requestId":"f4362b23-3c17-4ed8-9e0d-8ecf47fe76ec","time":"2021-02-25T08:32:54Z","vars":{}}
+{"level":"error","message":"unable unmarshal get personsjson: cannot unmarshal object into Go value of type []person.Person","requestId":"f4362b23-3c17-4ed8-9e0d-8ecf47fe76ec","time":"2021-02-25T08:32:54Z"}
+{"level":"debug","message":"persons num {}4","requestId":"f4362b23-3c17-4ed8-9e0d-8ecf47fe76ec","time":"2021-02-25T08:32:56Z"}
+{"level":"debug","message":"create person","requestId":"02b916e8-cde7-4495-a767-71767808f195","time":"2021-02-25T08:34:07Z","vars":{}}
+{"level":"debug","message":"get persons","requestId":"1b577a59-2421-45d9-abd5-0a9eef1f91a1","time":"2021-02-25T08:35:36Z","vars":{}}
+{"level":"error","message":"couldn't get redis get persons redis: nil","requestId":"1b577a59-2421-45d9-abd5-0a9eef1f91a1","time":"2021-02-25T08:35:36Z"}
+{"level":"debug","message":"persons num {}4","requestId":"1b577a59-2421-45d9-abd5-0a9eef1f91a1","time":"2021-02-25T08:35:36Z"}
+{"level":"debug","message":"create person","requestId":"f0b3291b-ccd0-466a-a847-7d84686220a8","time":"2021-02-25T08:35:48Z","vars":{}}
+{"level":"debug","message":"create person","requestId":"0c109dc4-cdca-4df7-ad8c-54f048b9269e","time":"2021-02-25T08:36:08Z","vars":{}}
+{"level":"debug","message":"create person","requestId":"01f634c9-32dc-493f-a79a-38534f4a682a","time":"2021-02-25T08:36:50Z","vars":{}}
+{"level":"debug","message":"create person","requestId":"aa35c9d8-06c9-4c45-80f2-5b9185980f7b","time":"2021-02-25T08:37:04Z","vars":{}}
+{"level":"debug","message":"create person","requestId":"49ffc6f5-ac05-476d-85a3-7e99de85b594","time":"2021-02-25T08:37:52Z","vars":{}}
+{"level":"debug","message":"get persons","requestId":"a4015cf4-488d-43f2-8009-381aa059ebdf","time":"2021-02-25T08:38:04Z","vars":{}}
+{"level":"error","message":"unable unmarshal get personsjson: cannot unmarshal object into Go value of type []person.Person","requestId":"a4015cf4-488d-43f2-8009-381aa059ebdf","time":"2021-02-25T08:38:04Z"}
+{"level":"debug","message":"persons num {}4","requestId":"a4015cf4-488d-43f2-8009-381aa059ebdf","time":"2021-02-25T08:38:12Z"}
+{"level":"debug","message":"create person","requestId":"abd73165-8135-4449-87ff-3359443a7ab4","time":"2021-02-25T08:38:40Z","vars":{}}
+{"level":"debug","message":"create person","requestId":"ad4d3964-106a-4d75-973a-8f0fdce0fe1c","time":"2021-02-25T15:30:56Z","vars":{}}
+{"level":"debug","message":"get persons","requestId":"aedb9542-feeb-47cd-a610-4c04c425c199","time":"2021-02-25T15:32:11Z","vars":{}}
+{"level":"debug","message":"get persons","requestId":"e65f82fb-ebcc-4b76-848e-71865af33511","time":"2021-03-02T11:33:12Z","vars":{}}
+{"level":"error","message":"couldn't get redis get persons redis: nil","requestId":"e65f82fb-ebcc-4b76-848e-71865af33511","time":"2021-03-02T11:33:12Z"}
+{"level":"debug","message":"persons num {}4","requestId":"e65f82fb-ebcc-4b76-848e-71865af33511","time":"2021-03-02T11:33:12Z"}
+{"level":"debug","message":"create person","requestId":"5e905ae5-a6ba-4d39-9ec8-9f31e59ec523","time":"2021-03-02T11:34:38Z","vars":{}}
+{"level":"debug","message":"create person","requestId":"d8f552b0-32a0-492a-a3d8-973e8463cebb","time":"2021-03-02T11:36:57Z","vars":{}}
+{"level":"debug","message":"get person by id","requestId":"d0dd03dd-1666-4e26-aa3e-d6373f272cdf","time":"2021-03-02T12:50:05Z","vars":{"id":"7"}}
+{"level":"debug","message":"get person by id","requestId":"c1e69a6a-369d-4970-aa37-d3d77f98c68d","time":"2021-03-02T12:50:49Z","vars":{"id":"7"}}
+{"level":"debug","message":"create person","requestId":"406078de-e778-40ef-a06f-b484e9a14b02","time":"2021-03-02T12:52:04Z","vars":{}}
+{"level":"debug","message":"get person by id","requestId":"9e2eb039-358e-4002-9722-ce9bbe75991a","time":"2021-03-02T12:52:30Z","vars":{"id":"8"}}
+{"level":"debug","message":"get person by id","requestId":"4fe62e5c-1792-4fe8-b42a-49fb6496ef54","time":"2021-03-02T12:53:05Z","vars":{"id":"8"}}
+{"level":"debug","message":"get persons","requestId":"70a69fff-72a5-4908-adda-2090b8e6798f","time":"2021-03-02T12:53:40Z","vars":{}}
+{"level":"error","message":"unable unmarshal get personsinvalid character '{' after top-level value","requestId":"70a69fff-72a5-4908-adda-2090b8e6798f","time":"2021-03-02T12:53:40Z"}
+{"level":"debug","message":"persons num {}6","requestId":"70a69fff-72a5-4908-adda-2090b8e6798f","time":"2021-03-02T12:53:51Z"}
+{"level":"debug","message":"get persons","requestId":"3978c3e4-9abc-4a8f-9300-608b937f316b","time":"2021-05-03T11:25:38Z","vars":{}}
+{"level":"error","message":"couldn't get redis get persons redis: nil","requestId":"3978c3e4-9abc-4a8f-9300-608b937f316b","time":"2021-05-03T11:25:38Z"}
+{"level":"debug","message":"persons num {}6","requestId":"3978c3e4-9abc-4a8f-9300-608b937f316b","time":"2021-05-03T11:25:39Z"}
+{"level":"debug","message":"get persons","requestId":"ea881104-ebd3-443e-9865-6acd5eea4dca","time":"2021-05-03T11:46:36Z","vars":{}}
+{"level":"debug","message":"get persons","requestId":"11f84e64-a9f4-4978-976a-076bf2a95b0f","time":"2021-05-03T11:46:39Z","vars":{}}
+{"level":"debug","message":"get person by id","requestId":"39adce9b-4137-45ff-923f-33816fc56321","time":"2021-05-03T11:48:05Z","vars":{"id":"1"}}
+{"level":"error","message":"couldn't get redis get person by ID redis: nil","requestId":"39adce9b-4137-45ff-923f-33816fc56321","time":"2021-05-03T11:48:05Z"}
+{"level":"debug","message":"persons num {}","requestId":"39adce9b-4137-45ff-923f-33816fc56321","time":"2021-05-03T11:48:05Z"}
+{"level":"debug","message":"create person","requestId":"58495df8-fc54-4ed4-b16a-01026ca4443e","time":"2021-05-03T11:49:32Z","vars":{}}
+{"level":"debug","message":"update person by id","requestId":"6c4e614f-3333-4ea8-84be-a81d606590e0","time":"2021-05-03T11:51:30Z","vars":{"id":"9"}}
+{"level":"debug","message":"delete person by id","requestId":"75336ece-7b42-4f91-bdd0-c27ffb284f21","time":"2021-05-03T11:52:26Z","vars":{"id":"9"}}
+{"level":"debug","message":"persons num {}","requestId":"75336ece-7b42-4f91-bdd0-c27ffb284f21","time":"2021-05-03T11:52:26Z"}
+{"level":"debug","message":"get person by id","requestId":"433cc0a6-7968-4f72-a82a-2126ca6c9e25","time":"2021-05-03T11:52:58Z","vars":{"id":"9"}}
+{"level":"debug","message":"get person by id","requestId":"75be979a-5471-42ff-a78e-5de9a30ae2ed","time":"2021-05-03T12:16:21Z","vars":{"id":"9"}}
+{"level":"debug","message":"delete person by id","requestId":"117c87f0-f60f-41b4-90a5-f92f1067edb8","time":"2021-05-03T12:16:42Z","vars":{"id":"9"}}
+{"level":"error","message":"can't delete person from redisdel person:9: 1","requestId":"117c87f0-f60f-41b4-90a5-f92f1067edb8","time":"2021-05-03T12:16:42Z"}
+{"level":"error","message":"can't delete personrecord not found","requestId":"117c87f0-f60f-41b4-90a5-f92f1067edb8","time":"2021-05-03T12:16:42Z"}
+{"level":"error","message":"error - delete person by idrecord not found","requestId":"117c87f0-f60f-41b4-90a5-f92f1067edb8","time":"2021-05-03T12:16:42Z"}
+{"level":"debug","message":"create person","requestId":"7e72eb82-9063-408c-b0e6-e8e0bd5b4256","time":"2021-05-03T12:17:06Z","vars":{}}
+{"level":"debug","message":"delete person by id","requestId":"e7448ce6-84ec-4666-9911-25d77cffd962","time":"2021-05-03T12:17:21Z","vars":{"id":"10"}}
+{"level":"error","message":"can't delete person from redisdel person:10: 1","requestId":"e7448ce6-84ec-4666-9911-25d77cffd962","time":"2021-05-03T12:17:21Z"}
+{"level":"debug","message":"persons num {}","requestId":"e7448ce6-84ec-4666-9911-25d77cffd962","time":"2021-05-03T12:17:21Z"}
+{"level":"debug","message":"get persons","requestId":"b27282fc-eb3f-4366-ac65-34155ba07045","time":"2021-05-03T12:17:36Z","vars":{}}
+{"level":"error","message":"unable unmarshal get personsinvalid character '{' after top-level value","requestId":"b27282fc-eb3f-4366-ac65-34155ba07045","time":"2021-05-03T12:17:36Z"}
+{"level":"debug","message":"persons num {}6","requestId":"b27282fc-eb3f-4366-ac65-34155ba07045","time":"2021-05-03T12:17:36Z"}
+{"level":"debug","message":"get persons","requestId":"a1f7b11a-2704-415e-beb8-49578adf4ed8","time":"2021-05-03T12:18:57Z","vars":{}}
+{"level":"error","message":"couldn't get redis get persons redis: nil","requestId":"a1f7b11a-2704-415e-beb8-49578adf4ed8","time":"2021-05-03T12:18:57Z"}
+{"level":"debug","message":"persons num {}6","requestId":"a1f7b11a-2704-415e-beb8-49578adf4ed8","time":"2021-05-03T12:18:57Z"}
+{"level":"debug","message":"delete person by id","requestId":"63866d2e-d523-4854-95a3-f80f8d18f478","time":"2021-05-03T12:19:05Z","vars":{"id":"3"}}
+{"level":"error","message":"can't delete person from redisdel person:3: 0","requestId":"63866d2e-d523-4854-95a3-f80f8d18f478","time":"2021-05-03T12:19:05Z"}
+{"level":"debug","message":"persons num {}","requestId":"63866d2e-d523-4854-95a3-f80f8d18f478","time":"2021-05-03T12:19:05Z"}
+{"level":"debug","message":"delete person by id","requestId":"e2e340b1-8bcb-4984-9832-b5293e1019f0","time":"2021-05-03T12:19:07Z","vars":{"id":"4"}}
+{"level":"error","message":"can't delete person from redisdel person:4: 0","requestId":"e2e340b1-8bcb-4984-9832-b5293e1019f0","time":"2021-05-03T12:19:07Z"}
+{"level":"debug","message":"persons num {}","requestId":"e2e340b1-8bcb-4984-9832-b5293e1019f0","time":"2021-05-03T12:19:07Z"}
+{"level":"debug","message":"delete person by id","requestId":"8f148466-f745-43d3-85fb-f045b03b8cb9","time":"2021-05-03T12:19:08Z","vars":{"id":"5"}}
+{"level":"error","message":"can't delete person from redisdel person:5: 0","requestId":"8f148466-f745-43d3-85fb-f045b03b8cb9","time":"2021-05-03T12:19:08Z"}
+{"level":"debug","message":"persons num {}","requestId":"8f148466-f745-43d3-85fb-f045b03b8cb9","time":"2021-05-03T12:19:08Z"}
+{"level":"debug","message":"delete person by id","requestId":"0cff5dee-995a-4f34-94d7-cd5ae67bbfde","time":"2021-05-03T12:19:09Z","vars":{"id":"6"}}
+{"level":"error","message":"can't delete person from redisdel person:6: 0","requestId":"0cff5dee-995a-4f34-94d7-cd5ae67bbfde","time":"2021-05-03T12:19:09Z"}
+{"level":"error","message":"can't delete personrecord not found","requestId":"0cff5dee-995a-4f34-94d7-cd5ae67bbfde","time":"2021-05-03T12:19:09Z"}
+{"level":"error","message":"error - delete person by idrecord not found","requestId":"0cff5dee-995a-4f34-94d7-cd5ae67bbfde","time":"2021-05-03T12:19:09Z"}
+{"level":"debug","message":"delete person by id","requestId":"a41f03fb-6e6d-4841-a722-8a02ee6bebea","time":"2021-05-03T12:19:10Z","vars":{"id":"7"}}
+{"level":"error","message":"can't delete person from redisdel person:7: 0","requestId":"a41f03fb-6e6d-4841-a722-8a02ee6bebea","time":"2021-05-03T12:19:10Z"}
+{"level":"debug","message":"persons num {}","requestId":"a41f03fb-6e6d-4841-a722-8a02ee6bebea","time":"2021-05-03T12:19:10Z"}
+{"level":"debug","message":"delete person by id","requestId":"b72491e2-60bb-4ea3-945d-01992190f6f1","time":"2021-05-03T12:19:11Z","vars":{"id":"8"}}
+{"level":"error","message":"can't delete person from redisdel person:8: 0","requestId":"b72491e2-60bb-4ea3-945d-01992190f6f1","time":"2021-05-03T12:19:11Z"}
+{"level":"debug","message":"persons num {}","requestId":"b72491e2-60bb-4ea3-945d-01992190f6f1","time":"2021-05-03T12:19:11Z"}
+{"level":"debug","message":"get persons","requestId":"a0e3b971-fb76-4d9b-a501-a6b3bb508afe","time":"2021-05-03T12:19:27Z","vars":{}}
+{"level":"debug","message":"delete person by id","requestId":"17afca75-5a98-4d3f-9fd4-74ec086924f2","time":"2021-05-03T12:19:40Z","vars":{"id":"1"}}
+{"level":"error","message":"can't delete person from redisdel person:1: 0","requestId":"17afca75-5a98-4d3f-9fd4-74ec086924f2","time":"2021-05-03T12:19:40Z"}
+{"level":"debug","message":"persons num {}","requestId":"17afca75-5a98-4d3f-9fd4-74ec086924f2","time":"2021-05-03T12:19:40Z"}
+{"level":"debug","message":"delete person by id","requestId":"ba9af93d-0249-4153-8c8a-5cec5e887e8b","time":"2021-05-03T14:01:51Z","vars":{"id":"1"}}
+{"level":"debug","message":"i'm here: 2","requestId":"ba9af93d-0249-4153-8c8a-5cec5e887e8b","time":"2021-05-03T14:01:51Z"}
+{"level":"error","message":"can't delete person from redisdel person:1: 0","requestId":"ba9af93d-0249-4153-8c8a-5cec5e887e8b","time":"2021-05-03T14:01:51Z"}
+{"level":"debug","message":"i'm here: 3","requestId":"ba9af93d-0249-4153-8c8a-5cec5e887e8b","time":"2021-05-03T14:01:51Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"ba9af93d-0249-4153-8c8a-5cec5e887e8b","time":"2021-05-03T14:01:51Z"}
+{"level":"error","message":"can't delete personrecord not found","requestId":"ba9af93d-0249-4153-8c8a-5cec5e887e8b","time":"2021-05-03T14:01:51Z"}
+{"level":"error","message":"error - delete person by idrecord not found","requestId":"ba9af93d-0249-4153-8c8a-5cec5e887e8b","time":"2021-05-03T14:01:51Z"}
+{"level":"debug","message":"delete person by id","requestId":"3bc081e7-8874-4d54-ac27-0a57560b22ed","time":"2021-05-03T14:01:56Z","vars":{"id":"3"}}
+{"level":"debug","message":"i'm here: 2","requestId":"3bc081e7-8874-4d54-ac27-0a57560b22ed","time":"2021-05-03T14:01:56Z"}
+{"level":"error","message":"can't delete person from redisdel person:3: 0","requestId":"3bc081e7-8874-4d54-ac27-0a57560b22ed","time":"2021-05-03T14:01:56Z"}
+{"level":"debug","message":"i'm here: 3","requestId":"3bc081e7-8874-4d54-ac27-0a57560b22ed","time":"2021-05-03T14:01:56Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"3bc081e7-8874-4d54-ac27-0a57560b22ed","time":"2021-05-03T14:01:56Z"}
+{"level":"error","message":"can't delete personrecord not found","requestId":"3bc081e7-8874-4d54-ac27-0a57560b22ed","time":"2021-05-03T14:01:56Z"}
+{"level":"error","message":"error - delete person by idrecord not found","requestId":"3bc081e7-8874-4d54-ac27-0a57560b22ed","time":"2021-05-03T14:01:56Z"}
+{"level":"debug","message":"delete person by id","requestId":"98df1f05-f81b-4917-8962-f3f55084c6a3","time":"2021-05-03T14:01:58Z","vars":{"id":"4"}}
+{"level":"debug","message":"i'm here: 2","requestId":"98df1f05-f81b-4917-8962-f3f55084c6a3","time":"2021-05-03T14:01:58Z"}
+{"level":"error","message":"can't delete person from redisdel person:4: 0","requestId":"98df1f05-f81b-4917-8962-f3f55084c6a3","time":"2021-05-03T14:01:58Z"}
+{"level":"debug","message":"i'm here: 3","requestId":"98df1f05-f81b-4917-8962-f3f55084c6a3","time":"2021-05-03T14:01:58Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"98df1f05-f81b-4917-8962-f3f55084c6a3","time":"2021-05-03T14:01:58Z"}
+{"level":"error","message":"can't delete personrecord not found","requestId":"98df1f05-f81b-4917-8962-f3f55084c6a3","time":"2021-05-03T14:01:58Z"}
+{"level":"error","message":"error - delete person by idrecord not found","requestId":"98df1f05-f81b-4917-8962-f3f55084c6a3","time":"2021-05-03T14:01:58Z"}
+{"level":"debug","message":"delete person by id","requestId":"df39fff5-2fb1-4097-9101-599c89eee218","time":"2021-05-03T14:02:00Z","vars":{"id":"5"}}
+{"level":"debug","message":"i'm here: 2","requestId":"df39fff5-2fb1-4097-9101-599c89eee218","time":"2021-05-03T14:02:00Z"}
+{"level":"error","message":"can't delete person from redisdel person:5: 0","requestId":"df39fff5-2fb1-4097-9101-599c89eee218","time":"2021-05-03T14:02:00Z"}
+{"level":"debug","message":"i'm here: 3","requestId":"df39fff5-2fb1-4097-9101-599c89eee218","time":"2021-05-03T14:02:00Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"df39fff5-2fb1-4097-9101-599c89eee218","time":"2021-05-03T14:02:00Z"}
+{"level":"error","message":"can't delete personrecord not found","requestId":"df39fff5-2fb1-4097-9101-599c89eee218","time":"2021-05-03T14:02:00Z"}
+{"level":"error","message":"error - delete person by idrecord not found","requestId":"df39fff5-2fb1-4097-9101-599c89eee218","time":"2021-05-03T14:02:00Z"}
+{"level":"debug","message":"delete person by id","requestId":"035c2250-6158-4004-b013-564710927f85","time":"2021-05-03T14:02:01Z","vars":{"id":"6"}}
+{"level":"debug","message":"i'm here: 2","requestId":"035c2250-6158-4004-b013-564710927f85","time":"2021-05-03T14:02:01Z"}
+{"level":"error","message":"can't delete person from redisdel person:6: 0","requestId":"035c2250-6158-4004-b013-564710927f85","time":"2021-05-03T14:02:01Z"}
+{"level":"debug","message":"i'm here: 3","requestId":"035c2250-6158-4004-b013-564710927f85","time":"2021-05-03T14:02:01Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"035c2250-6158-4004-b013-564710927f85","time":"2021-05-03T14:02:01Z"}
+{"level":"error","message":"can't delete personrecord not found","requestId":"035c2250-6158-4004-b013-564710927f85","time":"2021-05-03T14:02:01Z"}
+{"level":"error","message":"error - delete person by idrecord not found","requestId":"035c2250-6158-4004-b013-564710927f85","time":"2021-05-03T14:02:01Z"}
+{"level":"debug","message":"get persons","requestId":"759eb328-88bf-4157-a0f2-3cde2f2b5001","time":"2021-05-04T08:11:29Z","vars":{}}
+{"level":"debug","message":"delete person by id","requestId":"3480a0f9-9022-4ea8-8665-ba038be1ea8d","time":"2021-05-04T08:11:52Z","vars":{"id":"5"}}
+{"level":"debug","message":"i'm here: 2","requestId":"3480a0f9-9022-4ea8-8665-ba038be1ea8d","time":"2021-05-04T08:11:52Z"}
+{"level":"error","message":"can't delete person from redisdel person:5: 0","requestId":"3480a0f9-9022-4ea8-8665-ba038be1ea8d","time":"2021-05-04T08:11:52Z"}
+{"level":"debug","message":"i'm here: 3","requestId":"3480a0f9-9022-4ea8-8665-ba038be1ea8d","time":"2021-05-04T08:11:52Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"3480a0f9-9022-4ea8-8665-ba038be1ea8d","time":"2021-05-04T08:11:52Z"}
+{"level":"error","message":"can't delete person record not found","requestId":"3480a0f9-9022-4ea8-8665-ba038be1ea8d","time":"2021-05-04T08:11:52Z"}
+{"level":"error","message":"error - delete person by idrecord not found","requestId":"3480a0f9-9022-4ea8-8665-ba038be1ea8d","time":"2021-05-04T08:11:52Z"}
+{"level":"debug","message":"get persons","requestId":"8fdfa80b-c4ab-4c91-adb7-c91547bfeadf","time":"2021-05-04T08:13:13Z","vars":{}}
+{"level":"debug","message":"get persons","requestId":"5b31260a-c4d1-4711-8e0a-850992e6527f","time":"2021-05-04T08:14:01Z","vars":{}}
+{"level":"error","message":"couldn't get redis get persons redis: nil","requestId":"5b31260a-c4d1-4711-8e0a-850992e6527f","time":"2021-05-04T08:14:01Z"}
+{"level":"debug","message":"persons num {}0","requestId":"5b31260a-c4d1-4711-8e0a-850992e6527f","time":"2021-05-04T08:14:01Z"}
+{"level":"debug","message":"create person","requestId":"7d3e6071-7b88-40df-a02a-9f8a070cc9a7","time":"2021-05-04T08:19:39Z","vars":{}}
+{"level":"debug","message":"delete person by id","requestId":"b7b8cca7-3b59-4a1d-ac39-fdfb4ab3f620","time":"2021-05-04T08:20:09Z","vars":{"id":"11"}}
+{"level":"debug","message":"i'm here: 2","requestId":"b7b8cca7-3b59-4a1d-ac39-fdfb4ab3f620","time":"2021-05-04T08:20:09Z"}
+{"level":"error","message":"can't delete person from redisdel person:11: 1","requestId":"b7b8cca7-3b59-4a1d-ac39-fdfb4ab3f620","time":"2021-05-04T08:20:09Z"}
+{"level":"debug","message":"i'm here: 3","requestId":"b7b8cca7-3b59-4a1d-ac39-fdfb4ab3f620","time":"2021-05-04T08:20:09Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"b7b8cca7-3b59-4a1d-ac39-fdfb4ab3f620","time":"2021-05-04T08:20:09Z"}
+{"level":"debug","message":"persons num {}","requestId":"b7b8cca7-3b59-4a1d-ac39-fdfb4ab3f620","time":"2021-05-04T08:20:09Z"}
+{"level":"debug","message":"create person","requestId":"6a9632f2-d7c7-47f4-a61e-f3e4a4344d4c","time":"2021-05-04T08:20:48Z","vars":{}}
+{"level":"debug","message":"create person","requestId":"1d749129-e536-4868-bb23-38a56375c7b1","time":"2021-05-04T08:23:55Z","vars":{}}
+{"level":"debug","message":"delete person by id","requestId":"6b528746-2a03-49cc-b344-bf338fd3447a","time":"2021-05-04T08:47:37Z","vars":{"id":"12"}}
+{"level":"debug","message":"i'm here: 2","requestId":"6b528746-2a03-49cc-b344-bf338fd3447a","time":"2021-05-04T08:47:37Z"}
+{"level":"error","message":"can't delete person from redisdel person:12: 1","requestId":"6b528746-2a03-49cc-b344-bf338fd3447a","time":"2021-05-04T08:47:37Z"}
+{"level":"debug","message":"i'm here: 3","requestId":"6b528746-2a03-49cc-b344-bf338fd3447a","time":"2021-05-04T08:47:37Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"6b528746-2a03-49cc-b344-bf338fd3447a","time":"2021-05-04T08:47:37Z"}
+{"level":"debug","message":"persons num {}","requestId":"6b528746-2a03-49cc-b344-bf338fd3447a","time":"2021-05-04T08:47:37Z"}
+{"level":"debug","message":"delete person by id","requestId":"03ef3c7b-3e2c-4b3b-b958-1a690c108d3b","time":"2021-05-04T08:47:39Z","vars":{"id":"13"}}
+{"level":"debug","message":"i'm here: 2","requestId":"03ef3c7b-3e2c-4b3b-b958-1a690c108d3b","time":"2021-05-04T08:47:39Z"}
+{"level":"error","message":"can't delete person from redisdel person:13: 1","requestId":"03ef3c7b-3e2c-4b3b-b958-1a690c108d3b","time":"2021-05-04T08:47:39Z"}
+{"level":"debug","message":"i'm here: 3","requestId":"03ef3c7b-3e2c-4b3b-b958-1a690c108d3b","time":"2021-05-04T08:47:39Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"03ef3c7b-3e2c-4b3b-b958-1a690c108d3b","time":"2021-05-04T08:47:39Z"}
+{"level":"debug","message":"persons num {}","requestId":"03ef3c7b-3e2c-4b3b-b958-1a690c108d3b","time":"2021-05-04T08:47:39Z"}
+{"level":"debug","message":"create person","requestId":"12908b96-dd8e-4a7e-837e-3bdfb25c72cd","time":"2021-05-04T08:48:05Z","vars":{}}
+{"level":"debug","message":"delete person by id","requestId":"f59aa666-9e10-42ea-8698-36f7fa31e791","time":"2021-05-04T08:58:16Z","vars":{"id":"14"}}
+{"level":"debug","message":"i'm here: 2","requestId":"f59aa666-9e10-42ea-8698-36f7fa31e791","time":"2021-05-04T08:58:16Z"}
+{"level":"error","message":"can't delete person from redisdel person:14: 1","requestId":"f59aa666-9e10-42ea-8698-36f7fa31e791","time":"2021-05-04T08:58:16Z"}
+{"level":"debug","message":"i'm here: 3","requestId":"f59aa666-9e10-42ea-8698-36f7fa31e791","time":"2021-05-04T08:58:16Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"f59aa666-9e10-42ea-8698-36f7fa31e791","time":"2021-05-04T08:58:16Z"}
+{"level":"debug","message":"persons num {}","requestId":"f59aa666-9e10-42ea-8698-36f7fa31e791","time":"2021-05-04T08:58:16Z"}
+{"level":"debug","message":"create person","requestId":"0afc2dfd-2bb3-476b-b42f-b9dde059d3b2","time":"2021-05-04T08:58:20Z","vars":{}}
+{"level":"error","message":"redis sucks!!redis: can't marshal *person.Person (consider implementing encoding.BinaryMarshaler)","requestId":"0afc2dfd-2bb3-476b-b42f-b9dde059d3b2","time":"2021-05-04T08:58:20Z"}
+{"level":"debug","message":"delete person by id","requestId":"43bdba7c-81d3-4d0e-98fb-0e8530dcd8fc","time":"2021-05-04T08:58:27Z","vars":{"id":"15"}}
+{"level":"debug","message":"i'm here: 2","requestId":"43bdba7c-81d3-4d0e-98fb-0e8530dcd8fc","time":"2021-05-04T08:58:27Z"}
+{"level":"error","message":"can't delete person from redisdel person:15: 0","requestId":"43bdba7c-81d3-4d0e-98fb-0e8530dcd8fc","time":"2021-05-04T08:58:27Z"}
+{"level":"debug","message":"i'm here: 3","requestId":"43bdba7c-81d3-4d0e-98fb-0e8530dcd8fc","time":"2021-05-04T08:58:27Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"43bdba7c-81d3-4d0e-98fb-0e8530dcd8fc","time":"2021-05-04T08:58:27Z"}
+{"level":"debug","message":"persons num {}","requestId":"43bdba7c-81d3-4d0e-98fb-0e8530dcd8fc","time":"2021-05-04T08:58:27Z"}
+{"level":"debug","message":"create person","requestId":"3effa598-3204-430c-99e8-e210b7a56de1","time":"2021-05-04T08:58:44Z","vars":{}}
+{"level":"error","message":"redis sucks!!redis: can't marshal *person.Person (consider implementing encoding.BinaryMarshaler)","requestId":"3effa598-3204-430c-99e8-e210b7a56de1","time":"2021-05-04T08:58:44Z"}
+{"level":"debug","message":"create person","requestId":"59edba70-d7cf-4070-847e-12bbfd715418","time":"2021-05-04T08:58:53Z","vars":{}}
+{"level":"error","message":"redis sucks!!redis: can't marshal *person.Person (consider implementing encoding.BinaryMarshaler)","requestId":"59edba70-d7cf-4070-847e-12bbfd715418","time":"2021-05-04T08:58:53Z"}
+{"level":"debug","message":"create person","requestId":"958bb488-b994-492f-9fe1-18bbebd316b8","time":"2021-05-04T08:59:07Z","vars":{}}
+{"level":"error","message":"redis sucks!!redis: can't marshal *person.Person (consider implementing encoding.BinaryMarshaler)","requestId":"958bb488-b994-492f-9fe1-18bbebd316b8","time":"2021-05-04T08:59:07Z"}
+{"level":"debug","message":"delete person by id","requestId":"597ddd20-2181-4ec1-a079-fc307e207f13","time":"2021-05-04T09:05:21Z","vars":{"id":"16"}}
+{"level":"debug","message":"i'm here: 2","requestId":"597ddd20-2181-4ec1-a079-fc307e207f13","time":"2021-05-04T09:05:21Z"}
+{"level":"error","message":"can't delete person from redisdel person:16: 0","requestId":"597ddd20-2181-4ec1-a079-fc307e207f13","time":"2021-05-04T09:05:21Z"}
+{"level":"debug","message":"i'm here: 3","requestId":"597ddd20-2181-4ec1-a079-fc307e207f13","time":"2021-05-04T09:05:21Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"597ddd20-2181-4ec1-a079-fc307e207f13","time":"2021-05-04T09:05:21Z"}
+{"level":"debug","message":"persons num {}","requestId":"597ddd20-2181-4ec1-a079-fc307e207f13","time":"2021-05-04T09:05:21Z"}
+{"level":"debug","message":"delete person by id","requestId":"d0c8839d-497a-4d80-984d-618cbeddfffc","time":"2021-05-04T09:05:22Z","vars":{"id":"17"}}
+{"level":"debug","message":"i'm here: 2","requestId":"d0c8839d-497a-4d80-984d-618cbeddfffc","time":"2021-05-04T09:05:22Z"}
+{"level":"error","message":"can't delete person from redisdel person:17: 0","requestId":"d0c8839d-497a-4d80-984d-618cbeddfffc","time":"2021-05-04T09:05:22Z"}
+{"level":"debug","message":"i'm here: 3","requestId":"d0c8839d-497a-4d80-984d-618cbeddfffc","time":"2021-05-04T09:05:22Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"d0c8839d-497a-4d80-984d-618cbeddfffc","time":"2021-05-04T09:05:22Z"}
+{"level":"debug","message":"persons num {}","requestId":"d0c8839d-497a-4d80-984d-618cbeddfffc","time":"2021-05-04T09:05:22Z"}
+{"level":"debug","message":"delete person by id","requestId":"a9b690d2-78c2-4ce8-b743-4b9a64c6bb88","time":"2021-05-04T09:05:23Z","vars":{"id":"18"}}
+{"level":"debug","message":"i'm here: 2","requestId":"a9b690d2-78c2-4ce8-b743-4b9a64c6bb88","time":"2021-05-04T09:05:23Z"}
+{"level":"error","message":"can't delete person from redisdel person:18: 0","requestId":"a9b690d2-78c2-4ce8-b743-4b9a64c6bb88","time":"2021-05-04T09:05:23Z"}
+{"level":"debug","message":"i'm here: 3","requestId":"a9b690d2-78c2-4ce8-b743-4b9a64c6bb88","time":"2021-05-04T09:05:23Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"a9b690d2-78c2-4ce8-b743-4b9a64c6bb88","time":"2021-05-04T09:05:23Z"}
+{"level":"debug","message":"persons num {}","requestId":"a9b690d2-78c2-4ce8-b743-4b9a64c6bb88","time":"2021-05-04T09:05:23Z"}
+{"level":"debug","message":"create person","requestId":"c02b1e72-40c6-4eb8-9293-e75806b6c9bc","time":"2021-05-04T09:05:26Z","vars":{}}
+{"level":"error","message":"redis sucks!!redis: can't marshal *person.Person (consider implementing encoding.BinaryMarshaler)","requestId":"c02b1e72-40c6-4eb8-9293-e75806b6c9bc","time":"2021-05-04T09:05:26Z"}
+{"level":"debug","message":"create person","requestId":"832d599a-960e-4f63-bcba-138d187a2777","time":"2021-05-04T09:05:34Z","vars":{}}
+{"level":"error","message":"redis sucks!!redis: can't marshal *person.Person (consider implementing encoding.BinaryMarshaler)","requestId":"832d599a-960e-4f63-bcba-138d187a2777","time":"2021-05-04T09:05:34Z"}
+{"level":"debug","message":"delete person by id","requestId":"7e47710d-1bd5-4e70-8186-157cdc4679e9","time":"2021-05-04T09:05:59Z","vars":{"id":"19"}}
+{"level":"debug","message":"i'm here: 2","requestId":"7e47710d-1bd5-4e70-8186-157cdc4679e9","time":"2021-05-04T09:05:59Z"}
+{"level":"error","message":"can't delete person from redisdel person:19: 0","requestId":"7e47710d-1bd5-4e70-8186-157cdc4679e9","time":"2021-05-04T09:05:59Z"}
+{"level":"debug","message":"i'm here: 3","requestId":"7e47710d-1bd5-4e70-8186-157cdc4679e9","time":"2021-05-04T09:05:59Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"7e47710d-1bd5-4e70-8186-157cdc4679e9","time":"2021-05-04T09:05:59Z"}
+{"level":"debug","message":"persons num {}","requestId":"7e47710d-1bd5-4e70-8186-157cdc4679e9","time":"2021-05-04T09:05:59Z"}
+{"level":"debug","message":"delete person by id","requestId":"726c9dd5-15c4-4710-9eaf-ab2c34d9f496","time":"2021-05-04T09:06:01Z","vars":{"id":"20"}}
+{"level":"debug","message":"i'm here: 2","requestId":"726c9dd5-15c4-4710-9eaf-ab2c34d9f496","time":"2021-05-04T09:06:01Z"}
+{"level":"error","message":"can't delete person from redisdel person:20: 0","requestId":"726c9dd5-15c4-4710-9eaf-ab2c34d9f496","time":"2021-05-04T09:06:01Z"}
+{"level":"debug","message":"i'm here: 3","requestId":"726c9dd5-15c4-4710-9eaf-ab2c34d9f496","time":"2021-05-04T09:06:01Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"726c9dd5-15c4-4710-9eaf-ab2c34d9f496","time":"2021-05-04T09:06:01Z"}
+{"level":"debug","message":"persons num {}","requestId":"726c9dd5-15c4-4710-9eaf-ab2c34d9f496","time":"2021-05-04T09:06:01Z"}
+{"level":"debug","message":"create person","requestId":"e2464463-9682-4ced-ae5c-85301a8873de","time":"2021-05-04T09:06:03Z","vars":{}}
+{"level":"error","message":"redis sucks!!redis: can't marshal *person.Person (consider implementing encoding.BinaryMarshaler)","requestId":"e2464463-9682-4ced-ae5c-85301a8873de","time":"2021-05-04T09:06:03Z"}
+{"level":"debug","message":"create person","requestId":"543c588d-4884-4cbc-a66b-d6ad9f885367","time":"2021-05-04T09:06:08Z","vars":{}}
+{"level":"error","message":"redis sucks!!redis: can't marshal *person.Person (consider implementing encoding.BinaryMarshaler)","requestId":"543c588d-4884-4cbc-a66b-d6ad9f885367","time":"2021-05-04T09:06:08Z"}
+{"level":"debug","message":"delete person by id","requestId":"6587bece-53ce-4a60-a304-a91f303a43c0","time":"2021-05-04T09:07:00Z","vars":{"id":"21"}}
+{"level":"debug","message":"i'm here: 2","requestId":"6587bece-53ce-4a60-a304-a91f303a43c0","time":"2021-05-04T09:07:00Z"}
+{"level":"error","message":"can't delete person from redisdel person:21: 0","requestId":"6587bece-53ce-4a60-a304-a91f303a43c0","time":"2021-05-04T09:07:00Z"}
+{"level":"debug","message":"i'm here: 3","requestId":"6587bece-53ce-4a60-a304-a91f303a43c0","time":"2021-05-04T09:07:00Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"6587bece-53ce-4a60-a304-a91f303a43c0","time":"2021-05-04T09:07:00Z"}
+{"level":"debug","message":"persons num {}","requestId":"6587bece-53ce-4a60-a304-a91f303a43c0","time":"2021-05-04T09:07:00Z"}
+{"level":"debug","message":"delete person by id","requestId":"a1a039b9-e2e8-44a0-aace-08e07eec1f37","time":"2021-05-04T09:07:01Z","vars":{"id":"22"}}
+{"level":"debug","message":"i'm here: 2","requestId":"a1a039b9-e2e8-44a0-aace-08e07eec1f37","time":"2021-05-04T09:07:01Z"}
+{"level":"error","message":"can't delete person from redisdel person:22: 0","requestId":"a1a039b9-e2e8-44a0-aace-08e07eec1f37","time":"2021-05-04T09:07:01Z"}
+{"level":"debug","message":"i'm here: 3","requestId":"a1a039b9-e2e8-44a0-aace-08e07eec1f37","time":"2021-05-04T09:07:01Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"a1a039b9-e2e8-44a0-aace-08e07eec1f37","time":"2021-05-04T09:07:01Z"}
+{"level":"debug","message":"persons num {}","requestId":"a1a039b9-e2e8-44a0-aace-08e07eec1f37","time":"2021-05-04T09:07:01Z"}
+{"level":"debug","message":"get persons","requestId":"9c2e9f4d-21bc-43f0-b100-6acbe04b031c","time":"2021-05-04T09:07:42Z","vars":{}}
+{"level":"error","message":"couldn't get redis get persons redis: nil","requestId":"9c2e9f4d-21bc-43f0-b100-6acbe04b031c","time":"2021-05-04T09:07:42Z"}
+{"level":"debug","message":"persons num {}0","requestId":"9c2e9f4d-21bc-43f0-b100-6acbe04b031c","time":"2021-05-04T09:07:42Z"}
+{"level":"debug","message":"create person","requestId":"300cbd7b-43ea-4799-a936-271220131af1","time":"2021-05-04T09:07:46Z","vars":{}}
+{"level":"debug","message":"create person","requestId":"7507af0d-1d3c-4d8b-8399-d1691515b967","time":"2021-05-04T09:07:51Z","vars":{}}
+{"level":"debug","message":"delete person by id","requestId":"795ab70b-8f44-408c-895f-72213a0da906","time":"2021-05-04T09:08:13Z","vars":{"id":"23"}}
+{"level":"debug","message":"i'm here: 2","requestId":"795ab70b-8f44-408c-895f-72213a0da906","time":"2021-05-04T09:08:13Z"}
+{"level":"error","message":"can't delete person from redisdel person:23: 1","requestId":"795ab70b-8f44-408c-895f-72213a0da906","time":"2021-05-04T09:08:13Z"}
+{"level":"debug","message":"i'm here: 3","requestId":"795ab70b-8f44-408c-895f-72213a0da906","time":"2021-05-04T09:08:13Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"795ab70b-8f44-408c-895f-72213a0da906","time":"2021-05-04T09:08:13Z"}
+{"level":"debug","message":"persons num {}","requestId":"795ab70b-8f44-408c-895f-72213a0da906","time":"2021-05-04T09:08:13Z"}
+{"level":"debug","message":"delete person by id","requestId":"52997947-14a3-442b-94ec-d0a74067077f","time":"2021-05-04T09:08:14Z","vars":{"id":"24"}}
+{"level":"debug","message":"i'm here: 2","requestId":"52997947-14a3-442b-94ec-d0a74067077f","time":"2021-05-04T09:08:14Z"}
+{"level":"error","message":"can't delete person from redisdel person:24: 1","requestId":"52997947-14a3-442b-94ec-d0a74067077f","time":"2021-05-04T09:08:14Z"}
+{"level":"debug","message":"i'm here: 3","requestId":"52997947-14a3-442b-94ec-d0a74067077f","time":"2021-05-04T09:08:14Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"52997947-14a3-442b-94ec-d0a74067077f","time":"2021-05-04T09:08:14Z"}
+{"level":"debug","message":"persons num {}","requestId":"52997947-14a3-442b-94ec-d0a74067077f","time":"2021-05-04T09:08:14Z"}
+{"level":"debug","message":"create person","requestId":"53a8daab-32e2-40c3-a01e-2205c5268712","time":"2021-05-04T09:08:30Z","vars":{}}
+{"level":"debug","message":"create person","requestId":"b44b76e5-840f-4dec-8697-fe53740ecb39","time":"2021-05-04T09:08:35Z","vars":{}}
+{"level":"debug","message":"delete person by id","requestId":"97bd64ad-1834-4067-829d-64b3e51716e8","time":"2021-05-04T12:11:13Z","vars":{"id":"25"}}
+{"level":"debug","message":"i'm here: 2","requestId":"97bd64ad-1834-4067-829d-64b3e51716e8","time":"2021-05-04T12:11:13Z"}
+{"level":"error","message":"can't delete person from redisdel person:25: 1","requestId":"97bd64ad-1834-4067-829d-64b3e51716e8","time":"2021-05-04T12:11:13Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"97bd64ad-1834-4067-829d-64b3e51716e8","time":"2021-05-04T12:11:13Z"}
+{"level":"debug","message":"persons num {}","requestId":"97bd64ad-1834-4067-829d-64b3e51716e8","time":"2021-05-04T12:11:13Z"}
+{"level":"error","message":"unable unmarshal get personsinvalid character '{' after top-level value","requestId":"97bd64ad-1834-4067-829d-64b3e51716e8","time":"2021-05-04T12:11:13Z"}
+{"level":"debug","message":"delete person by id","requestId":"6ec6c729-1419-4ecf-9ac6-ab6aa5d27fa3","time":"2021-05-04T12:11:15Z","vars":{"id":"26"}}
+{"level":"debug","message":"i'm here: 2","requestId":"6ec6c729-1419-4ecf-9ac6-ab6aa5d27fa3","time":"2021-05-04T12:11:15Z"}
+{"level":"error","message":"can't delete person from redisdel person:26: 1","requestId":"6ec6c729-1419-4ecf-9ac6-ab6aa5d27fa3","time":"2021-05-04T12:11:15Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"6ec6c729-1419-4ecf-9ac6-ab6aa5d27fa3","time":"2021-05-04T12:11:15Z"}
+{"level":"debug","message":"persons num {}","requestId":"6ec6c729-1419-4ecf-9ac6-ab6aa5d27fa3","time":"2021-05-04T12:11:15Z"}
+{"level":"error","message":"unable unmarshal get personsinvalid character '{' after top-level value","requestId":"6ec6c729-1419-4ecf-9ac6-ab6aa5d27fa3","time":"2021-05-04T12:11:15Z"}
+{"level":"debug","message":"create person","requestId":"52301389-9f01-4fd7-857b-aa9c76b1b4fb","time":"2021-05-04T12:11:31Z","vars":{}}
+{"level":"debug","message":"create person","requestId":"bfa2fca1-d77e-49c9-9103-a6c1994c14ea","time":"2021-05-04T12:11:37Z","vars":{}}
+{"level":"debug","message":"get persons","requestId":"c61f5478-6aac-4d11-967c-f96b113c0247","time":"2021-05-04T12:12:24Z","vars":{}}
+{"level":"error","message":"unable unmarshal get personsinvalid character '{' after top-level value","requestId":"c61f5478-6aac-4d11-967c-f96b113c0247","time":"2021-05-04T12:12:24Z"}
+{"level":"debug","message":"persons num {}2","requestId":"c61f5478-6aac-4d11-967c-f96b113c0247","time":"2021-05-04T12:12:24Z"}
+{"level":"debug","message":"delete person by id","requestId":"269dc021-aa96-4b55-829e-f725a6b21cb3","time":"2021-05-04T12:12:32Z","vars":{"id":"27"}}
+{"level":"debug","message":"i'm here: 2","requestId":"269dc021-aa96-4b55-829e-f725a6b21cb3","time":"2021-05-04T12:12:32Z"}
+{"level":"error","message":"can't delete person from redisdel person:27: 1","requestId":"269dc021-aa96-4b55-829e-f725a6b21cb3","time":"2021-05-04T12:12:32Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"269dc021-aa96-4b55-829e-f725a6b21cb3","time":"2021-05-04T12:12:32Z"}
+{"level":"debug","message":"persons num {}","requestId":"269dc021-aa96-4b55-829e-f725a6b21cb3","time":"2021-05-04T12:12:32Z"}
+{"level":"debug","message":"get persons","requestId":"bf76caaf-3470-4b17-b6ef-86998fd6a35b","time":"2021-05-04T12:12:35Z","vars":{}}
+{"level":"debug","message":"get persons","requestId":"7aed3c56-2066-490f-9c11-328eaa5dd2f4","time":"2021-05-04T12:15:35Z","vars":{}}
+{"level":"debug","message":"delete person by id","requestId":"256301a8-1e84-4fc0-ada7-74255cb569ac","time":"2021-05-04T12:15:39Z","vars":{"id":"28"}}
+{"level":"debug","message":"i'm here: 2","requestId":"256301a8-1e84-4fc0-ada7-74255cb569ac","time":"2021-05-04T12:15:39Z"}
+{"level":"error","message":"can't delete person from redisdel person:28: 1","requestId":"256301a8-1e84-4fc0-ada7-74255cb569ac","time":"2021-05-04T12:15:39Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"256301a8-1e84-4fc0-ada7-74255cb569ac","time":"2021-05-04T12:15:39Z"}
+{"level":"debug","message":"persons num {}","requestId":"256301a8-1e84-4fc0-ada7-74255cb569ac","time":"2021-05-04T12:15:39Z"}
+{"level":"debug","message":"get the new persons value","requestId":"256301a8-1e84-4fc0-ada7-74255cb569ac","time":"2021-05-04T12:15:39Z"}
+{"level":"debug","message":"create person","requestId":"66559578-c363-4b27-922c-2afc6991e451","time":"2021-05-04T12:15:55Z","vars":{}}
+{"level":"debug","message":"create person","requestId":"669a84bb-3159-4bae-9292-1648b6c5dfb4","time":"2021-05-04T12:16:00Z","vars":{}}
+{"level":"debug","message":"delete person by id","requestId":"294c6793-25ee-4639-99a7-ac90a0c6e5eb","time":"2021-05-04T12:16:39Z","vars":{"id":"30"}}
+{"level":"debug","message":"i'm here: 2","requestId":"294c6793-25ee-4639-99a7-ac90a0c6e5eb","time":"2021-05-04T12:16:39Z"}
+{"level":"error","message":"can't delete person from redisdel person:30: 1","requestId":"294c6793-25ee-4639-99a7-ac90a0c6e5eb","time":"2021-05-04T12:16:39Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"294c6793-25ee-4639-99a7-ac90a0c6e5eb","time":"2021-05-04T12:16:39Z"}
+{"level":"debug","message":"persons num {}","requestId":"294c6793-25ee-4639-99a7-ac90a0c6e5eb","time":"2021-05-04T12:16:39Z"}
+{"level":"debug","message":"get the new persons value","requestId":"294c6793-25ee-4639-99a7-ac90a0c6e5eb","time":"2021-05-04T12:16:39Z"}
+{"level":"debug","message":"create person","requestId":"305d66b1-75ce-44b8-a8dc-1782c4c0291d","time":"2021-05-04T12:16:56Z","vars":{}}
+{"level":"debug","message":"create person","requestId":"bf3b8834-2076-4773-9cec-549be1fff502","time":"2021-05-04T12:18:14Z","vars":{}}
+{"level":"debug","message":"delete person by id","requestId":"9bc4d421-a1dd-4c16-bbd3-56cd18564bec","time":"2021-05-04T12:18:27Z","vars":{"id":"29"}}
+{"level":"debug","message":"i'm here: 2","requestId":"9bc4d421-a1dd-4c16-bbd3-56cd18564bec","time":"2021-05-04T12:18:27Z"}
+{"level":"error","message":"can't delete person from redisdel person:29: 1","requestId":"9bc4d421-a1dd-4c16-bbd3-56cd18564bec","time":"2021-05-04T12:18:27Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"9bc4d421-a1dd-4c16-bbd3-56cd18564bec","time":"2021-05-04T12:18:27Z"}
+{"level":"debug","message":"persons num {}","requestId":"9bc4d421-a1dd-4c16-bbd3-56cd18564bec","time":"2021-05-04T12:18:27Z"}
+{"level":"debug","message":"get the new persons value","requestId":"9bc4d421-a1dd-4c16-bbd3-56cd18564bec","time":"2021-05-04T12:18:27Z"}
+{"level":"debug","message":"delete person by id","requestId":"12e902d2-e3c6-43cd-8b7b-b5b6d3d29c01","time":"2021-05-04T12:18:44Z","vars":{"id":"31"}}
+{"level":"debug","message":"i'm here: 2","requestId":"12e902d2-e3c6-43cd-8b7b-b5b6d3d29c01","time":"2021-05-04T12:18:44Z"}
+{"level":"error","message":"can't delete person from redisdel person:31: 1","requestId":"12e902d2-e3c6-43cd-8b7b-b5b6d3d29c01","time":"2021-05-04T12:18:44Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"12e902d2-e3c6-43cd-8b7b-b5b6d3d29c01","time":"2021-05-04T12:18:44Z"}
+{"level":"debug","message":"persons num {}","requestId":"12e902d2-e3c6-43cd-8b7b-b5b6d3d29c01","time":"2021-05-04T12:18:44Z"}
+{"level":"debug","message":"get the new persons value","requestId":"12e902d2-e3c6-43cd-8b7b-b5b6d3d29c01","time":"2021-05-04T12:18:44Z"}
+{"level":"debug","message":"delete person by id","requestId":"15b1162f-d5f4-410f-bc06-76a7ccef21f1","time":"2021-05-04T12:18:51Z","vars":{"id":"32"}}
+{"level":"debug","message":"i'm here: 2","requestId":"15b1162f-d5f4-410f-bc06-76a7ccef21f1","time":"2021-05-04T12:18:51Z"}
+{"level":"error","message":"can't delete person from redisdel person:32: 1","requestId":"15b1162f-d5f4-410f-bc06-76a7ccef21f1","time":"2021-05-04T12:18:51Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"15b1162f-d5f4-410f-bc06-76a7ccef21f1","time":"2021-05-04T12:18:51Z"}
+{"level":"debug","message":"persons num {}","requestId":"15b1162f-d5f4-410f-bc06-76a7ccef21f1","time":"2021-05-04T12:18:51Z"}
+{"level":"debug","message":"get the new persons value","requestId":"15b1162f-d5f4-410f-bc06-76a7ccef21f1","time":"2021-05-04T12:18:51Z"}
+{"level":"debug","message":"create person","requestId":"bbb2dfc2-66f8-42d2-8c9b-ad2694b5979f","time":"2021-05-04T12:19:17Z","vars":{}}
+{"level":"debug","message":"create person","requestId":"d894ba97-a760-4ba6-9f95-6c2bb8086a4a","time":"2021-05-04T12:19:23Z","vars":{}}
+{"level":"debug","message":"delete person by id","requestId":"fbba010a-ce66-4496-b183-b26181cbe85a","time":"2021-05-04T12:19:35Z","vars":{"id":"33"}}
+{"level":"debug","message":"i'm here: 2","requestId":"fbba010a-ce66-4496-b183-b26181cbe85a","time":"2021-05-04T12:19:35Z"}
+{"level":"error","message":"can't delete person from redisdel person:33: 1","requestId":"fbba010a-ce66-4496-b183-b26181cbe85a","time":"2021-05-04T12:19:35Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"fbba010a-ce66-4496-b183-b26181cbe85a","time":"2021-05-04T12:19:35Z"}
+{"level":"debug","message":"persons num {}","requestId":"fbba010a-ce66-4496-b183-b26181cbe85a","time":"2021-05-04T12:19:35Z"}
+{"level":"debug","message":"get the new persons value","requestId":"fbba010a-ce66-4496-b183-b26181cbe85a","time":"2021-05-04T12:19:35Z"}
+{"level":"debug","message":"delete person by id","requestId":"3e3e71b1-1532-42bc-a0f8-1fccff2aee38","time":"2021-05-04T12:20:38Z","vars":{"id":"35"}}
+{"level":"debug","message":"i'm here: 2","requestId":"3e3e71b1-1532-42bc-a0f8-1fccff2aee38","time":"2021-05-04T12:20:38Z"}
+{"level":"error","message":"can't delete person from redisdel person:35: 0","requestId":"3e3e71b1-1532-42bc-a0f8-1fccff2aee38","time":"2021-05-04T12:20:38Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"3e3e71b1-1532-42bc-a0f8-1fccff2aee38","time":"2021-05-04T12:20:38Z"}
+{"level":"error","message":"can't delete person record not found","requestId":"3e3e71b1-1532-42bc-a0f8-1fccff2aee38","time":"2021-05-04T12:20:38Z"}
+{"level":"error","message":"error - delete person by idrecord not found","requestId":"3e3e71b1-1532-42bc-a0f8-1fccff2aee38","time":"2021-05-04T12:20:38Z"}
+{"level":"debug","message":"delete person by id","requestId":"794ee84b-8f29-47c1-b1b2-496d8461d9ee","time":"2021-05-04T12:20:42Z","vars":{"id":"34"}}
+{"level":"debug","message":"i'm here: 2","requestId":"794ee84b-8f29-47c1-b1b2-496d8461d9ee","time":"2021-05-04T12:20:42Z"}
+{"level":"error","message":"can't delete person from redisdel person:34: 1","requestId":"794ee84b-8f29-47c1-b1b2-496d8461d9ee","time":"2021-05-04T12:20:42Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"794ee84b-8f29-47c1-b1b2-496d8461d9ee","time":"2021-05-04T12:20:42Z"}
+{"level":"debug","message":"persons num {}","requestId":"794ee84b-8f29-47c1-b1b2-496d8461d9ee","time":"2021-05-04T12:20:42Z"}
+{"level":"debug","message":"get the new persons value","requestId":"794ee84b-8f29-47c1-b1b2-496d8461d9ee","time":"2021-05-04T12:20:42Z"}
+{"level":"debug","message":"delete person by id","requestId":"d094662f-4961-4a1f-be33-3714f79a4a87","time":"2021-05-04T12:20:44Z","vars":{"id":"33"}}
+{"level":"debug","message":"i'm here: 2","requestId":"d094662f-4961-4a1f-be33-3714f79a4a87","time":"2021-05-04T12:20:44Z"}
+{"level":"error","message":"can't delete person from redisdel person:33: 0","requestId":"d094662f-4961-4a1f-be33-3714f79a4a87","time":"2021-05-04T12:20:44Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"d094662f-4961-4a1f-be33-3714f79a4a87","time":"2021-05-04T12:20:44Z"}
+{"level":"error","message":"can't delete person record not found","requestId":"d094662f-4961-4a1f-be33-3714f79a4a87","time":"2021-05-04T12:20:44Z"}
+{"level":"error","message":"error - delete person by idrecord not found","requestId":"d094662f-4961-4a1f-be33-3714f79a4a87","time":"2021-05-04T12:20:44Z"}
+{"level":"debug","message":"create person","requestId":"c7f99fea-8215-4b42-8537-57d8013ef357","time":"2021-05-04T12:20:56Z","vars":{}}
+{"level":"debug","message":"create person","requestId":"73443f86-af24-4f24-92b4-43a281016449","time":"2021-05-04T12:21:06Z","vars":{}}
+{"level":"debug","message":"delete person by id","requestId":"612174bb-53c6-490e-8fcd-83f39a2bbfea","time":"2021-05-04T12:21:20Z","vars":{"id":"36"}}
+{"level":"debug","message":"i'm here: 2","requestId":"612174bb-53c6-490e-8fcd-83f39a2bbfea","time":"2021-05-04T12:21:20Z"}
+{"level":"error","message":"can't delete person from redisdel person:36: 1","requestId":"612174bb-53c6-490e-8fcd-83f39a2bbfea","time":"2021-05-04T12:21:20Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"612174bb-53c6-490e-8fcd-83f39a2bbfea","time":"2021-05-04T12:21:20Z"}
+{"level":"debug","message":"persons num {}","requestId":"612174bb-53c6-490e-8fcd-83f39a2bbfea","time":"2021-05-04T12:21:20Z"}
+{"level":"debug","message":"get the new persons value","requestId":"612174bb-53c6-490e-8fcd-83f39a2bbfea","time":"2021-05-04T12:21:20Z"}
+{"level":"debug","message":"get persons","requestId":"ee55821c-7be2-4c18-ae40-920904591572","time":"2021-05-04T12:23:57Z","vars":{}}
+{"level":"debug","message":"delete person by id","requestId":"a303ae3f-adfa-423f-94a3-80fe4e07f53e","time":"2021-05-04T12:24:01Z","vars":{"id":"35"}}
+{"level":"debug","message":"i'm here: 2","requestId":"a303ae3f-adfa-423f-94a3-80fe4e07f53e","time":"2021-05-04T12:24:01Z"}
+{"level":"error","message":"can't delete person from redisdel person:35: 1","requestId":"a303ae3f-adfa-423f-94a3-80fe4e07f53e","time":"2021-05-04T12:24:01Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"a303ae3f-adfa-423f-94a3-80fe4e07f53e","time":"2021-05-04T12:24:01Z"}
+{"level":"debug","message":"persons num {}","requestId":"a303ae3f-adfa-423f-94a3-80fe4e07f53e","time":"2021-05-04T12:24:01Z"}
+{"level":"debug","message":"get the new persons value","requestId":"a303ae3f-adfa-423f-94a3-80fe4e07f53e","time":"2021-05-04T12:24:01Z"}
+{"level":"debug","message":"get persons","requestId":"8ff8900c-d805-490a-b1e2-91e1ca092cb5","time":"2021-05-04T12:24:04Z","vars":{}}
+{"level":"debug","message":"create person","requestId":"8603f953-2620-4e0a-bd2c-391787800e14","time":"2021-05-04T12:24:29Z","vars":{}}
+{"level":"debug","message":"create person","requestId":"b8faa1a2-d539-4e05-b3c0-3418599f469d","time":"2021-05-04T12:24:34Z","vars":{}}
+{"level":"debug","message":"delete person by id","requestId":"9dbbf78d-6807-45c7-90a1-d4ee18241a3f","time":"2021-05-04T12:24:56Z","vars":{"id":"38"}}
+{"level":"debug","message":"i'm here: 2","requestId":"9dbbf78d-6807-45c7-90a1-d4ee18241a3f","time":"2021-05-04T12:24:56Z"}
+{"level":"error","message":"can't delete person from redisdel person:38: 1","requestId":"9dbbf78d-6807-45c7-90a1-d4ee18241a3f","time":"2021-05-04T12:24:56Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"9dbbf78d-6807-45c7-90a1-d4ee18241a3f","time":"2021-05-04T12:24:56Z"}
+{"level":"debug","message":"get the new persons value","requestId":"9dbbf78d-6807-45c7-90a1-d4ee18241a3f","time":"2021-05-04T12:24:56Z"}
+{"level":"debug","message":"delete person by id","requestId":"605ec3b2-f4c7-4478-80bc-4ff313e1e73a","time":"2021-05-04T12:25:13Z","vars":{"id":"37"}}
+{"level":"debug","message":"i'm here: 2","requestId":"605ec3b2-f4c7-4478-80bc-4ff313e1e73a","time":"2021-05-04T12:25:13Z"}
+{"level":"error","message":"can't delete person from redisdel person:37: 1","requestId":"605ec3b2-f4c7-4478-80bc-4ff313e1e73a","time":"2021-05-04T12:25:13Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"605ec3b2-f4c7-4478-80bc-4ff313e1e73a","time":"2021-05-04T12:25:13Z"}
+{"level":"debug","message":"get the new persons value","requestId":"605ec3b2-f4c7-4478-80bc-4ff313e1e73a","time":"2021-05-04T12:25:13Z"}
+{"level":"debug","message":"create person","requestId":"b70da158-9d33-4cf0-b3c3-1791efa1563e","time":"2021-05-04T12:34:18Z","vars":{}}
+{"level":"debug","message":"create person","requestId":"0e6d7e84-ab5a-4dc6-abcb-ed75f0a2c301","time":"2021-05-04T12:34:25Z","vars":{}}
+{"level":"debug","message":"delete person by id","requestId":"5ee056e6-5064-456b-a39e-52c81a452b00","time":"2021-05-04T12:35:00Z","vars":{"id":"39"}}
+{"level":"debug","message":"i'm here: 2","requestId":"5ee056e6-5064-456b-a39e-52c81a452b00","time":"2021-05-04T12:35:00Z"}
+{"level":"error","message":"can't delete person from redisdel person:39: 1","requestId":"5ee056e6-5064-456b-a39e-52c81a452b00","time":"2021-05-04T12:35:00Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"5ee056e6-5064-456b-a39e-52c81a452b00","time":"2021-05-04T12:35:00Z"}
+{"level":"debug","message":"get the new persons value","requestId":"5ee056e6-5064-456b-a39e-52c81a452b00","time":"2021-05-04T12:35:00Z"}
+{"level":"debug","message":"delete person by id","requestId":"1cf3bc4f-f5c2-4794-9196-6711b25d6583","time":"2021-05-04T12:36:58Z","vars":{"id":"40"}}
+{"level":"debug","message":"i'm here: 2","requestId":"1cf3bc4f-f5c2-4794-9196-6711b25d6583","time":"2021-05-04T12:36:58Z"}
+{"level":"error","message":"can't delete person from redisdel person:40: 1","requestId":"1cf3bc4f-f5c2-4794-9196-6711b25d6583","time":"2021-05-04T12:36:58Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"1cf3bc4f-f5c2-4794-9196-6711b25d6583","time":"2021-05-04T12:36:58Z"}
+{"level":"debug","message":"get the new persons value","requestId":"1cf3bc4f-f5c2-4794-9196-6711b25d6583","time":"2021-05-04T12:36:58Z"}
+{"level":"debug","message":"create person","requestId":"30ef26f9-f71a-40dd-8aa2-26ada9ccccbe","time":"2021-05-04T12:37:07Z","vars":{}}
+{"level":"debug","message":"delete person by id","requestId":"74b8a5bb-34b6-4f92-bb29-f55b069d2207","time":"2021-05-04T12:44:07Z","vars":{"id":"41"}}
+{"level":"debug","message":"i'm here: 2","requestId":"74b8a5bb-34b6-4f92-bb29-f55b069d2207","time":"2021-05-04T12:44:07Z"}
+{"level":"error","message":"can't delete person from redisdel person:41: 1","requestId":"74b8a5bb-34b6-4f92-bb29-f55b069d2207","time":"2021-05-04T12:44:07Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"74b8a5bb-34b6-4f92-bb29-f55b069d2207","time":"2021-05-04T12:44:07Z"}
+{"level":"debug","message":"get the new persons value","requestId":"74b8a5bb-34b6-4f92-bb29-f55b069d2207","time":"2021-05-04T12:44:07Z"}
+{"level":"debug","message":"get persons","requestId":"ff5cd0c4-37d1-4bb0-93ac-de3ec90ed4e6","time":"2021-05-04T12:44:15Z","vars":{}}
+{"level":"error","message":"couldn't get redis get persons redis: nil","requestId":"ff5cd0c4-37d1-4bb0-93ac-de3ec90ed4e6","time":"2021-05-04T12:44:15Z"}
+{"level":"debug","message":"persons num {}0","requestId":"ff5cd0c4-37d1-4bb0-93ac-de3ec90ed4e6","time":"2021-05-04T12:44:15Z"}
+{"level":"debug","message":"create person","requestId":"7a55e3f9-4467-4ea5-89c9-bc61b67d2a11","time":"2021-05-04T12:44:31Z","vars":{}}
+{"level":"debug","message":"get the new persons value","requestId":"7a55e3f9-4467-4ea5-89c9-bc61b67d2a11","time":"2021-05-04T12:44:31Z"}
+{"level":"debug","message":"create person","requestId":"b61f9951-c80b-473c-8ba0-219948622e8c","time":"2021-05-04T12:44:36Z","vars":{}}
+{"level":"debug","message":"get the new persons value","requestId":"b61f9951-c80b-473c-8ba0-219948622e8c","time":"2021-05-04T12:44:36Z"}
+{"level":"debug","message":"delete person by id","requestId":"1151a282-3cf5-42c7-8dc8-e265a423eeeb","time":"2021-05-04T12:44:52Z","vars":{"id":"44"}}
+{"level":"debug","message":"i'm here: 2","requestId":"1151a282-3cf5-42c7-8dc8-e265a423eeeb","time":"2021-05-04T12:44:52Z"}
+{"level":"error","message":"can't delete person from redisdel person:44: 0","requestId":"1151a282-3cf5-42c7-8dc8-e265a423eeeb","time":"2021-05-04T12:44:52Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"1151a282-3cf5-42c7-8dc8-e265a423eeeb","time":"2021-05-04T12:44:52Z"}
+{"level":"error","message":"can't delete person record not found","requestId":"1151a282-3cf5-42c7-8dc8-e265a423eeeb","time":"2021-05-04T12:44:52Z"}
+{"level":"error","message":"error - delete person by idrecord not found","requestId":"1151a282-3cf5-42c7-8dc8-e265a423eeeb","time":"2021-05-04T12:44:52Z"}
+{"level":"debug","message":"delete person by id","requestId":"bb034d01-ed64-4770-ab78-0d04716a69af","time":"2021-05-04T12:44:56Z","vars":{"id":"43"}}
+{"level":"debug","message":"i'm here: 2","requestId":"bb034d01-ed64-4770-ab78-0d04716a69af","time":"2021-05-04T12:44:56Z"}
+{"level":"error","message":"can't delete person from redisdel person:43: 1","requestId":"bb034d01-ed64-4770-ab78-0d04716a69af","time":"2021-05-04T12:44:56Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"bb034d01-ed64-4770-ab78-0d04716a69af","time":"2021-05-04T12:44:56Z"}
+{"level":"debug","message":"get the new persons value","requestId":"bb034d01-ed64-4770-ab78-0d04716a69af","time":"2021-05-04T12:44:56Z"}
+{"level":"debug","message":"create person","requestId":"b6e1b7a0-fd3a-4a9c-b2fc-a387d307d58a","time":"2021-05-04T12:45:04Z","vars":{}}
+{"level":"debug","message":"get the new persons value","requestId":"b6e1b7a0-fd3a-4a9c-b2fc-a387d307d58a","time":"2021-05-04T12:45:04Z"}
+{"level":"debug","message":"delete person by id","requestId":"0fcf0b01-a202-4f27-8935-8a7484bd1457","time":"2021-05-04T12:45:16Z","vars":{"id":"44"}}
+{"level":"debug","message":"i'm here: 2","requestId":"0fcf0b01-a202-4f27-8935-8a7484bd1457","time":"2021-05-04T12:45:16Z"}
+{"level":"error","message":"can't delete person from redisdel person:44: 1","requestId":"0fcf0b01-a202-4f27-8935-8a7484bd1457","time":"2021-05-04T12:45:16Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"0fcf0b01-a202-4f27-8935-8a7484bd1457","time":"2021-05-04T12:45:16Z"}
+{"level":"debug","message":"get the new persons value","requestId":"0fcf0b01-a202-4f27-8935-8a7484bd1457","time":"2021-05-04T12:45:16Z"}
+{"level":"debug","message":"delete person by id","requestId":"4dfcef5e-337f-4915-a668-686f52d4776e","time":"2021-05-04T12:45:17Z","vars":{"id":"42"}}
+{"level":"debug","message":"i'm here: 2","requestId":"4dfcef5e-337f-4915-a668-686f52d4776e","time":"2021-05-04T12:45:17Z"}
+{"level":"error","message":"can't delete person from redisdel person:42: 1","requestId":"4dfcef5e-337f-4915-a668-686f52d4776e","time":"2021-05-04T12:45:17Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"4dfcef5e-337f-4915-a668-686f52d4776e","time":"2021-05-04T12:45:17Z"}
+{"level":"debug","message":"get the new persons value","requestId":"4dfcef5e-337f-4915-a668-686f52d4776e","time":"2021-05-04T12:45:17Z"}
+{"level":"debug","message":"get persons","requestId":"d9116913-d174-4d54-9306-f35520a588e2","time":"2021-05-05T07:10:14Z","vars":{}}
+{"level":"error","message":"couldn't get redis get persons redis: nil","requestId":"d9116913-d174-4d54-9306-f35520a588e2","time":"2021-05-05T07:10:14Z"}
+{"level":"debug","message":"persons num {}0","requestId":"d9116913-d174-4d54-9306-f35520a588e2","time":"2021-05-05T07:10:14Z"}
+{"level":"debug","message":"create person","requestId":"1a3c23a8-31dc-42e3-9685-a25fa72234db","time":"2021-05-05T07:14:12Z","vars":{}}
+{"level":"debug","message":"get the new persons value","requestId":"1a3c23a8-31dc-42e3-9685-a25fa72234db","time":"2021-05-05T07:14:12Z"}
+{"level":"debug","message":"create person","requestId":"ad5aa966-8927-4d0a-b35d-c538dadcac66","time":"2021-05-05T07:14:18Z","vars":{}}
+{"level":"debug","message":"get the new persons value","requestId":"ad5aa966-8927-4d0a-b35d-c538dadcac66","time":"2021-05-05T07:14:18Z"}
+{"level":"debug","message":"delete person by id","requestId":"ff2ff59e-e111-4843-8590-c101dc4de2c2","time":"2021-05-05T07:14:48Z","vars":{"id":"45"}}
+{"level":"debug","message":"i'm here: 2","requestId":"ff2ff59e-e111-4843-8590-c101dc4de2c2","time":"2021-05-05T07:14:48Z"}
+{"level":"error","message":"can't delete person from redisdel person:45: 1","requestId":"ff2ff59e-e111-4843-8590-c101dc4de2c2","time":"2021-05-05T07:14:48Z"}
+{"level":"debug","message":"i'm here: 1","requestId":"ff2ff59e-e111-4843-8590-c101dc4de2c2","time":"2021-05-05T07:14:48Z"}
+{"level":"debug","message":"get the new persons value","requestId":"ff2ff59e-e111-4843-8590-c101dc4de2c2","time":"2021-05-05T07:14:48Z"}
+{"level":"debug","message":"get person by id","requestId":"568c1b97-c84c-4877-a2e2-1fe489494d33","time":"2021-05-05T07:16:14Z","vars":{"id":"46"}}
+{"level":"debug","message":"update person by id","requestId":"d9150ebb-df5d-4dcd-af1d-1268a5a76298","time":"2021-05-05T08:05:20Z","vars":{"id":"46"}}
+{"level":"error","message":"redis sucks!!redis: can't marshal *person.Person (consider implementing encoding.BinaryMarshaler)","requestId":"d9150ebb-df5d-4dcd-af1d-1268a5a76298","time":"2021-05-05T08:05:20Z"}
+{"level":"debug","message":"get person by id","requestId":"28065a84-f3d6-4874-8e25-5d916d71c2ab","time":"2021-05-05T08:05:36Z","vars":{"id":"46"}}
+{"level":"debug","message":"get person by id","requestId":"c808cc83-5bf0-4878-ad11-2ef284538d8d","time":"2021-05-05T08:06:01Z","vars":{"id":"46"}}
+{"level":"debug","message":"get persons","requestId":"fd12f9af-1615-4945-84a3-dd6f90b57eec","time":"2021-05-05T08:06:24Z","vars":{}}
+{"level":"debug","message":"update person by id","requestId":"077fda98-6809-464c-8d7f-4a6c3f769761","time":"2021-05-05T08:06:58Z","vars":{"id":"46"}}
+{"level":"error","message":"redis sucks!!redis: can't marshal *person.Person (consider implementing encoding.BinaryMarshaler)","requestId":"077fda98-6809-464c-8d7f-4a6c3f769761","time":"2021-05-05T08:09:52Z"}
+{"level":"debug","message":"update person by id","requestId":"05948c84-9728-4865-b748-0c3eb909b4db","time":"2021-05-05T08:13:31Z","vars":{"id":"46"}}
+{"level":"error","message":"redis sucks!!redis: can't marshal person.Person (consider implementing encoding.BinaryMarshaler)","requestId":"05948c84-9728-4865-b748-0c3eb909b4db","time":"2021-05-05T08:13:50Z"}
+{"level":"debug","message":"update person by id","requestId":"04a389ec-c464-45e3-86e5-eb9b6ca3949f","time":"2021-05-05T08:14:25Z","vars":{"id":"46"}}
+{"level":"debug","message":"update person by id","requestId":"80b84694-ce86-4bb5-bd7d-d131a23be9ce","time":"2021-05-05T08:22:54Z","vars":{"id":"46"}}
+{"level":"error","message":"redis sucks!!redis: can't marshal *person.Person (consider implementing encoding.BinaryMarshaler)","requestId":"80b84694-ce86-4bb5-bd7d-d131a23be9ce","time":"2021-05-05T08:23:05Z"}
+{"level":"debug","message":"update person by id","requestId":"fb0279f4-becf-4405-854a-8d7a0f0a202a","time":"2021-05-05T08:51:26Z","vars":{"id":"46"}}
+{"level":"error","message":"redis sucks!!redis: can't marshal **person.Person (consider implementing encoding.BinaryMarshaler)","requestId":"fb0279f4-becf-4405-854a-8d7a0f0a202a","time":"2021-05-05T08:51:38Z"}
+{"level":"debug","message":"update person by id","requestId":"ea191cb4-5524-4ea4-a014-ecf0d6b9fbed","time":"2021-05-05T08:52:08Z","vars":{"id":"46"}}
+{"level":"error","message":"redis sucks!!redis: can't marshal person.Person (consider implementing encoding.BinaryMarshaler)","requestId":"ea191cb4-5524-4ea4-a014-ecf0d6b9fbed","time":"2021-05-05T08:52:44Z"}
+{"level":"debug","message":"update person by id","requestId":"98c6ad9c-821b-47e5-b8ff-b54934116cbd","time":"2021-05-05T08:53:19Z","vars":{"id":"46"}}
+{"level":"debug","message":"update person by id","requestId":"bc1d7ec6-3e44-48eb-8754-cc51d6e49beb","time":"2021-05-05T08:54:52Z","vars":{"id":"46"}}
+{"level":"debug","message":"update person by id","requestId":"b3c57c83-b45d-4389-913a-3f82f8b077e7","time":"2021-05-05T08:57:34Z","vars":{"id":"46"}}
+{"level":"debug","message":"update person by id","requestId":"b773ce6a-80c7-4d56-8c2b-b204add395ae","time":"2021-05-05T08:58:13Z","vars":{"id":"46"}}
+{"level":"debug","message":"update person by id","requestId":"24790eea-aa86-4684-9fee-2ad40f8e8354","time":"2021-05-05T09:01:33Z","vars":{"id":"46"}}
+{"level":"debug","message":"update person by id","requestId":"84a45e5a-ec5f-4027-a6de-3039908773c7","time":"2021-05-05T09:01:40Z","vars":{"id":"46"}}
+{"level":"debug","message":"update person by id","requestId":"ea0540bb-3997-45fb-8d48-c342e2bf8a1c","time":"2021-05-05T09:02:13Z","vars":{"id":"46"}}
+{"level":"debug","message":"update person by id","requestId":"d0dc896a-84ff-4b5b-8f8c-3eeaf46cac0d","time":"2021-05-05T09:05:12Z","vars":{"id":"46"}}
+{"level":"error","message":"couldn't get redis get person by ID redis: nil","requestId":"d0dc896a-84ff-4b5b-8f8c-3eeaf46cac0d","time":"2021-05-05T09:05:12Z"}
+{"level":"error","message":"unable marshal get personsredis: nil","requestId":"d0dc896a-84ff-4b5b-8f8c-3eeaf46cac0d","time":"2021-05-05T09:05:12Z"}
+{"level":"debug","message":"update person by id","requestId":"4cfe378d-b89c-4647-9a17-108ae137a741","time":"2021-05-05T09:08:18Z","vars":{"id":"46"}}
+{"level":"error","message":"couldn't get redis get person by ID redis: nil","requestId":"4cfe378d-b89c-4647-9a17-108ae137a741","time":"2021-05-05T09:08:20Z"}
+{"level":"error","message":"unable marshal get persons redis: nil","requestId":"4cfe378d-b89c-4647-9a17-108ae137a741","time":"2021-05-05T09:08:21Z"}
+{"level":"debug","message":"get persons","requestId":"46fc71bc-2e65-47f7-a43d-2276b8629a58","time":"2021-05-05T09:09:17Z","vars":{}}
+{"level":"error","message":"couldn't get redis get persons redis: nil","requestId":"46fc71bc-2e65-47f7-a43d-2276b8629a58","time":"2021-05-05T09:09:17Z"}
+{"level":"debug","message":"persons num {}1","requestId":"46fc71bc-2e65-47f7-a43d-2276b8629a58","time":"2021-05-05T09:09:21Z"}
+{"level":"debug","message":"update person by id","requestId":"64fceb9c-d31b-489b-9581-d9fcb571d3d3","time":"2021-05-05T09:19:46Z","vars":{"id":"46"}}
+{"level":"error","message":"can't delete persons from redisdel persons: 1","requestId":"64fceb9c-d31b-489b-9581-d9fcb571d3d3","time":"2021-05-05T09:19:49Z"}
+{"level":"debug","message":"create person","requestId":"bbcf7dca-070b-4519-97fc-1f4cc612a3c4","time":"2021-05-05T09:20:45Z","vars":{}}
+{"level":"debug","message":"get the new persons value","requestId":"bbcf7dca-070b-4519-97fc-1f4cc612a3c4","time":"2021-05-05T09:20:45Z"}
+{"level":"debug","message":"update person by id","requestId":"30715477-e5cf-4a24-a625-dac36862ea63","time":"2021-05-05T09:21:48Z","vars":{"id":"47"}}
+{"level":"error","message":"can't delete persons from redisdel persons: 1","requestId":"30715477-e5cf-4a24-a625-dac36862ea63","time":"2021-05-05T09:21:53Z"}
+{"level":"debug","message":"update person by id","requestId":"b7bcd108-9aec-4e97-bc3d-1d3d792b56f1","time":"2021-05-05T09:24:03Z","vars":{"id":"47"}}
+{"level":"error","message":"can't delete persons from redisdel persons: 1","requestId":"b7bcd108-9aec-4e97-bc3d-1d3d792b56f1","time":"2021-05-05T09:24:03Z"}
+{"level":"debug","message":"update person by id","requestId":"c80d1039-4fe5-4890-821e-27b9af529edb","time":"2021-05-05T09:24:54Z","vars":{"id":"47"}}
+{"level":"error","message":"can't delete persons from redisdel persons: 1","requestId":"c80d1039-4fe5-4890-821e-27b9af529edb","time":"2021-05-05T09:24:54Z"}
+{"level":"debug","message":"update person by id","requestId":"cfb69c6b-699a-4524-9eeb-5be1418e11fb","time":"2021-05-05T09:25:33Z","vars":{"id":"47"}}
+{"level":"error","message":"can't delete persons from redis del persons: 1","requestId":"cfb69c6b-699a-4524-9eeb-5be1418e11fb","time":"2021-05-05T09:25:33Z"}
+{"level":"debug","message":"update person by id","requestId":"b9a97934-2f2c-4051-9c4b-9f0168a8853b","time":"2021-05-05T09:26:27Z","vars":{"id":"47"}}
+{"level":"debug","message":"update person by id","requestId":"2d094a19-7c3b-4943-8108-deae3206dd57","time":"2021-05-05T09:27:05Z","vars":{"id":"47"}}
+{"level":"error","message":"can't delete persons from redis del persons: 1","requestId":"2d094a19-7c3b-4943-8108-deae3206dd57","time":"2021-05-05T09:27:06Z"}
+{"level":"debug","message":"update person by id","requestId":"6da6c68b-9065-4294-986a-d2f991ae2f12","time":"2021-05-05T10:09:55Z","vars":{"id":"47"}}
+{"level":"debug","message":"update person by id","requestId":"ca9a32f1-7020-4a7f-8897-4d40cde97069","time":"2021-05-05T10:10:14Z","vars":{"id":"47"}}

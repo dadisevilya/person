@@ -1,0 +1,12 @@
+development:
+  main:
+    server: localhost
+    database: 0
+    pool: 30
+    log: true
+test:
+  main:
+    server: localhost
+    database: 0
+    pool: 30
+    log: true

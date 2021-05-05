@@ -1,0 +1,27 @@
+development:
+  host: localhost
+  driver: postgres
+  open: dbname=example_service sslmode=disable user=postgres password=
+  user_name: postgres
+  password:
+  log: true
+  database: example_service
+  open_pool: 20
+  idle_pool: 10
+test:
+  host: localhost
+  driver: postgres
+  open: dbname=example_service_test sslmode=disable user=postgres password=
+  user_name: postgres
+  password:
+  log: true
+  database: example_service_test
+  open_pool: 20
+  idle_pool: 10
+stage:
+    driver: postgres
+    open: dbname=$CONFIG_DBCONF_STAGE_DATABASE sslmode=disable host=$CONFIG_DBCONF_STAGE_HOST user=$CONFIG_DBCONF_STAGE_USER_NAME password=$CONFIG_DBCONF_STAGE_PASSWORD
+    max_con_life_time: 10m
+prod:
+    driver: postgres
+    open: dbname=$CONFIG_DBCONF_PROD_DATABASE sslmode=disable host=$CONFIG_DBCONF_PROD_HOST user=$CONFIG_DBCONF_PROD_USER_NAME password=$CONFIG_DBCONF_PROD_PASSWORD

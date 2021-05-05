@@ -1,0 +1,82 @@
+global:
+  endpoints:
+    area_service:
+      hostname: area.scrumX.gett.io
+    media_service:
+      hostname: media.scrumX.gett.io
+    monitoring_relay_service:
+      hostname: relay.scrumX.gett.io
+  api:
+    read_timeout: 1
+    open_timeout: 0.3
+    open_timeout_retries: 1
+  circuit_breaker:
+    redis:
+    defaults:
+      enabled: true
+      invocation_timeout: 2
+      invocation_timeout_retries: 0
+      recover_timeout: 60
+      failure_threshold: 3
+    api:
+      media:
+        create:
+          invocation_timeout: 1
+      user_text:
+        create:
+          invocation_timeout: 1
+  auth:
+    simple: true
+    shared_secret_key: '769d8211df40738dd92f91ab99ed12e03982c29bd51d3a5bc536573f0030f11934179ed78f31f711c7f9'
+    saml:
+      idp_sso_target_url: 'https://gett.okta.com/app/gett_gettservices_1/exk20vp59tm4YtMRS0x7/sso/saml'
+      idp_cert_fingerprint: '0B:03:24:E7:0B:5B:C8:A1:B5:88:D5:98:9E:F3:56:C9:91:5C:E9:14'
+    session:
+      idle_timeout: 20
+      lifespan: 240
+  env:
+      IL: &default_il
+        endpoints:
+          gtforge:
+            hostname: il.scrumX.gett.io
+            version: ''
+        currency: ILS
+        map_center_lat: 32.079808
+        map_center_lng: 34.775102
+        map_engine: 'osm'
+        distance_unit: 'metric'
+        time_zone: 'Asia/Tel_Aviv'
+        user_languages:
+          - he
+          - en
+          - ru
+      RU: &default_ru
+        endpoints:
+          gtforge:
+            hostname: ru.scrumX.gett.io
+            version: ''
+        currency: RUB
+        map_center_lat: 55.749796
+        map_center_lng: 37.624397
+        distance_unit: 'metric'
+        map_engine: 'google'
+        time_zone: 'Europe/Moscow'
+        user_languages:
+          - ru
+          - en
+          - he
+      UK: &default_uk
+        endpoints:
+          gtforge:
+            hostname: uk.scrumX.gett.io
+            version: ''
+        currency: GBP
+        map_center_lat: 51.511221
+        map_center_lng: -0.128236
+        map_engine: 'google'
+        distance_unit: 'metric'
+        time_zone: 'Europe/London'
+        user_languages:
+          - en
+          - he
+          - ru

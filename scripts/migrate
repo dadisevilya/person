@@ -1,0 +1,4 @@
+#! /bin/bash
+
+echo "Running migrations . . ."
+swan -path=config -migrations-dir=migrations up
