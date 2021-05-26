@@ -24,6 +24,9 @@ func NewHandler(service Service) *handler {
 func (h handler) RegisterRoutes(router *mux.Router) {
 	router.HandleFunc("/persons", h.GetPersons).Methods(http.MethodGet)
 	router.HandleFunc("/person/{id:[0-9]+}", h.GetPersonByID).Methods(http.MethodGet)
+	router.HandleFunc("/rating/{id:[0-9]+}", h.GetRatingByPersonID).Methods(http.MethodGet)
+	router.HandleFunc("/ratings/groups", h.GetAllRatingsByWaitingGroups).Methods(http.MethodGet)
+	router.HandleFunc("/ratings/channels", h.GetAllRatingsByChannels).Methods(http.MethodGet)
 	router.HandleFunc("/person", h.CreatePerson).Methods(http.MethodPost)
 	router.HandleFunc("/update_person/{id:[0-9]+}", h.UpdatePerson).Methods(http.MethodPut)
 	router.HandleFunc("/delete_person/{id:[0-9]+}", h.DeletePerson).Methods(http.MethodDelete)
@@ -55,18 +58,33 @@ func (h handler) GetPersons(w http.ResponseWriter, req *http.Request) {
 	persons, err := h.service.GetPersons()
 
 	if err != nil {
-		//handelError(err, w)
 		h.render.JSON(w, http.StatusNotFound, err)
 		return
 	}
 	h.render.JSON(w, http.StatusOK, persons)
 }
 
-//func handelError(e error, writer http.ResponseWriter) {
-//	if e !=
-//		h.render.JSON(w, http.StatusOK, persons)
-//
-//}
+func (h handler) GetAllRatingsByWaitingGroups(w http.ResponseWriter, req *http.Request) {
+	logrus.WithFields(logrus.Fields{"vars": mux.Vars(req)}).Debug("get all ratings")
+	persons, err := h.service.GetAllRatingsByWaitingGroups()
+
+	if err != nil {
+		h.render.JSON(w, http.StatusNotFound, err)
+		return
+	}
+	h.render.JSON(w, http.StatusOK, persons)
+}
+
+func (h handler) GetAllRatingsByChannels(w http.ResponseWriter, req *http.Request) {
+	logrus.WithFields(logrus.Fields{"vars": mux.Vars(req)}).Debug("get all ratings")
+	persons, err := h.service.GetAllRatingsByChannels()
+
+	if err != nil {
+		h.render.JSON(w, http.StatusNotFound, err)
+		return
+	}
+	h.render.JSON(w, http.StatusOK, persons)
+}
 
 func (h handler) GetPersonByID(w http.ResponseWriter, req *http.Request) {
 	logrus.WithFields(logrus.Fields{"vars": mux.Vars(req)}).Debug("get person by id")
@@ -75,6 +93,21 @@ func (h handler) GetPersonByID(w http.ResponseWriter, req *http.Request) {
 	id, _ := strconv.ParseInt(stringId, 10, 64)
 
 	person, err := h.service.GetPersonByID(id)
+
+	if err != nil {
+		h.render.JSON(w, http.StatusNotFound, err)
+		return
+	}
+	h.render.JSON(w, http.StatusOK, person)
+}
+
+func (h handler) GetRatingByPersonID(w http.ResponseWriter, req *http.Request) {
+	logrus.WithFields(logrus.Fields{"vars": mux.Vars(req)}).Debug("get rating by person id")
+	params := mux.Vars(req)
+	stringId := params["id"]
+	id, _ := strconv.ParseInt(stringId, 10, 64)
+
+	person, err := h.service.GetRatingByPersonID(id)
 
 	if err != nil {
 		h.render.JSON(w, http.StatusNotFound, err)
