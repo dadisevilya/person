@@ -39,21 +39,21 @@ func (ps PersonStore) GetPersons() ([]Person, error) {
 	return persons, nil
 }
 
-func (ps PersonStore) GetPersonByID(personId int64) (*Person, error) {
+func (ps PersonStore) GetPersonByID(personId int64) (persons *Person,err error) {
 	bytes, err := gettStorages.RedisClient.Get("person:" + strconv.FormatInt(personId, 10)).Bytes()
 
 	if err != nil {
 		logrus.Error("couldn't get redis get person by ID ", err)
-		return &Person{}, err
-	}
-	person := Person{}
-	err = json.Unmarshal(bytes, &person)
-	if err != nil {
-		logrus.Error("unable unmarshal get person by ID", err)
-		return &Person{}, err
+		return persons, err
 	}
 
-	return &person, nil
+	err = json.Unmarshal(bytes, &persons)
+	if err != nil {
+		logrus.Error("unable unmarshal get person by ID", err)
+		return persons, err
+	}
+
+	return persons, nil
 }
 
 func (ps PersonStore) SetPersons(persons []Person) {
@@ -88,7 +88,6 @@ func (ps PersonStore) UpdatePerson(id int64, createPersonRequest *CreatePersonRe
 	person, err := ps.GetPersonByID(id)
 	if err != nil {
 		logrus.Error("unable marshal get persons ", err)
-		return &Person{}, err
 	}
 
 	person.Name = createPersonRequest.Name

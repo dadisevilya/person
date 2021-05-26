@@ -5,4 +5,5 @@ type CreatePersonRequest struct {
 	Age    int64  `json:"age"`
 	Height string `json:"height"`
 	Weight string `json:"weight"`
+	RatingUpdate bool `json:"rating_update"`
 }
